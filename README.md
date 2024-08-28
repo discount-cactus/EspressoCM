@@ -1,7 +1,7 @@
 # EspressoCM
 Espresso Rev 4 CM, or just Espresso CM, is an STM32- and ESP32-based compute module for high performance networking and automation applications. The board was designed to provide a plethora of capabilities in a small, user-friendly and cheap package. An STM32 and two (not one but two!) ESP32's were chosen for their ease-of-use, clock speed and peripherals to acommodate these requirements. For the beginner or novel hobbyist, the ESP32's can be used - both come with their own dedicated flash memory chip and CAN bus port as well as Wi-Fi and Bluetooth connectivity. For the more advanced and tech-savy, the STM32 can be programmed directly for higher-performance control.
 
-Link to EspressoCM's complimentary library: TBD
+Link to EspressoCM's complimentary library: https://github.com/discount-cactus/EspressoCM_arduinolib
 
 <img width="946" alt="espressoCM_3drender" src="https://github.com/user-attachments/assets/b606fc82-9e2f-45a0-9720-430596f09b01">
 
