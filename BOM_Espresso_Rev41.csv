@@ -1,0 +1,62 @@
+Source:,/Users/brandonlantau/Documents/KiCad/7.0/projects/Espresso_Rev4.1/Espresso_Rev4.kicad_sch,,,,,,,,
+Date:,"Tuesday, August 20, 2024 at 01:13:08 PM",,,,,,,,
+Tool:,Eeschema (7.0.0-0),,,,,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,,,,
+Component Count:,152,,,,,,,,
+,,,,,,,,,
+Collated Components:,,,,,,,,,
+,,,,,,,,,
+Item,Qty,Reference(s),Value,Manufacturer,LibPart,Footprint,Datasheet,DNP,Part Number
+1,6,"C1, C4, C15, C18, C21, C24",1uF,Samsung,Custom_Microcontroller:C_0603_1uF,Custom_Microcontroller:C_0603,,,CL10A105KB8NNNC
+2,23,"C2, C3, C5, C6, C10, C11, C12, C13, C14, C16, C17, C19, C20, C38, C43, C46, C47, C48, C49, C50, C59, C60, C63",100nF,Samsung,Custom_Microcontroller:C_0603_100nF,Custom_Microcontroller:C_0603,,,CL10B104KB8NNNC
+3,2,"C7, C9",6.3pF,Samsung,Custom_Microcontroller:C_0603_6.3pF,Custom_Microcontroller:C_0603,,,CL10C6R2DB8NNNC
+4,4,"C8, C33, C55, C56",4.7uF,Samsung,Custom_Microcontroller:C_0603_4.7uF,Custom_Microcontroller:C_0603,,,CL10A475MA8NQNC
+5,2,"C22, C27",5.6pF,Samsung,Custom_Microcontroller:C_0603_5.6pF,Custom_Microcontroller:C_0603,,,CL10C5R6DB81PNC
+6,10,"C23, C25, C26, C30, C32, C34, C51, C52, C53, C54",2.2uF,Samsung,Custom_Microcontroller:C_0603_2.2uF,Custom_Microcontroller:C_0603,,,CL10A225KB8NNNC
+7,4,"C28, C35, C36, C37",220pF,Samsung,Custom_Microcontroller:C_0603_220pF,Custom_Microcontroller:C_0603,,,CL10B221KB8NFNC
+8,3,"C29, C31, C39",10uF,Samsung,Custom_Microcontroller:C_0603_10uF,Custom_Microcontroller:C_0603,,,CL10A106MA8NRNC
+9,2,"C40, C41",47uF,Kyocera AVX,Custom_Microcontroller:C_1206_47uF_Polarized,Custom_Microcontroller:C_1206,,,TLJA476M010R0600
+10,6,"C42, C57, C58, C66, C67, C68",15pF,Samsung,Custom_Microcontroller:C_0603_15pF,Custom_Microcontroller:C_0603,,,CL10C150JB81PNC
+11,2,"C44, C45",22uF,Kyocera AVX,Custom_Microcontroller:C_1411_22uF,Custom_Microcontroller:C_1411,,,TAJB226K020RNJ
+12,2,"C64, C65",100pF,Samsung,Custom_Microcontroller:C_0603_100pF,Custom_Microcontroller:C_0603,,,CL10B101KB8NFNC
+13,3,"CR1, CR2, CR3",~,STMicroelectronics,Custom_Microcontroller:USBLC6-2SC6,Custom_Microcontroller:USBLC6-2SC6,https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf,,USBLC6-2SC6
+14,5,"D1, D4, D5, D8, D10",~,Lite-On Inc.,Custom_Microcontroller:LED_0603_Orange,Custom_Microcontroller:LED_0603,https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF,,LTST-C191KGKT
+15,1,D6,~,Micro Commercial Co,Custom_Microcontroller:SK54AHE3-LTP,Custom_Microcontroller:SK54AHE3-LTP,https://www.mccsemi.com/pdf/Products/SK52AHE3-L-SK510AHE3-L(DO-214AC).pdf,,SK54AHE3-LTP
+16,1,FB1,600mOhm,TAI-TECH Advanced,Custom_Microcontroller:FB_600mohm_0603,Custom_Microcontroller:L_0603,,,FCM 1608KF-601T03
+17,6,"FD1, FD2, FD3, FD4, FD5, FD6",~,,Custom_Microcontroller:FIDUCIAL,Custom_Microcontroller:Fiducial_1mm_Mask2mm,,,
+18,1,J1,~,Sullins,Custom_Microcontroller:HEADER-2X8,Custom_Microcontroller:2X8,,DNP,PPPC082LJBN-RC
+19,1,J2,~,EDAC Inc.,Custom_Microcontroller:690-005-299-043,Custom_Microcontroller:690-005-299-043,http://files.edac.net/edac/content/1/690-005-299-043.pdf,,690-005-299-043
+20,2,"J3, J4",~,Amphenol ICC,Custom_Microcontroller:HEADER-1X3,Custom_Microcontroller:1X3,,DNP,68001-203HLF
+21,1,J5,~,CNC Tech,Custom_Microcontroller:3220-10-0100-00,Custom_Microcontroller:3220-10-0100-00,http://www.cnctech.us/pdfs/3220-XX-0100-00_.pdf,,3220-10-0100-00
+22,1,J7,~,Hirose Electric,Custom_Microcontroller:DF40C-100DP-0.4V(51),Custom_Microcontroller:DF40C-100DP-0.4V(51),https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT,,DF40C-100DP-0.4V(51)
+23,1,J9,~,WAGO Corporation,Custom_Microcontroller:2604-1102,Custom_Microcontroller:2604-1102,https://www.digikey.com/en/products/detail/wago-corporation/2604-1102/15553526,,2604-1102
+24,1,J10,~,Hirose Electric,Custom_Microcontroller:DF40C-80DP-0.4V(51),Custom_Microcontroller:DF40C-80DP-0.4V_51,https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT,,DF40C-80DP-0.4V(51)
+25,1,J11,~,JST Sales America,Custom_Microcontroller:S2B-PH-K-S,Custom_Microcontroller:S2B-PH-K-S,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,,S2B-PH-K-S
+26,1,L1,2.2uH,Murata,Custom_Microcontroller:L_0603_2.2uH,Custom_Microcontroller:L_0603,,,LQM18PN2R2MGHD
+27,1,L2,4.7uH,Sumida America,Custom_Microcontroller:L_0603_4.7uH_0530CDMC,Custom_Microcontroller:L_0530CDMC,https://products.sumida.com/products/pdf/0530CDMCCDS.pdf,,0530CDMCCDS-4R7MC
+28,1,Q15,~,Diodes Inc.,Custom_Microcontroller:DMP3099L-7,Custom_Microcontroller:DMP3099L-7,https://www.diodes.com/assets/Datasheets/DMP3099L.pdf,,DMP3099L-7
+29,1,R1,0ohm,Stackpole,Custom_Microcontroller:R_0603_0ohm,Custom_Microcontroller:R_0603,,,RMCF0603ZT0R00
+30,2,"R2, R3",120ohm,Stackpole,Custom_Microcontroller:R_0603_120ohm,Custom_Microcontroller:R_0603,,,RMCF0603FT120R
+31,5,"R4, R17, R18, R28, R38",1kohm,Stackpole,Custom_Microcontroller:R_0603_1kohm,Custom_Microcontroller:R_0603,,,RMCF0603FT1K00
+32,4,"R5, R25, R26, R37",4.7kohm,Stackpole,Custom_Microcontroller:R_1206_4.7kohm,Custom_Microcontroller:R_1206,,,RMCF0603FT4K70
+33,10,"R6, R7, R12, R13, R16, R27, R29, R31, R42, R43",10kohm,Stackpole,Custom_Microcontroller:R_0603_10kohm,Custom_Microcontroller:R_0603,,,RMCF0603JT10K0
+34,1,R39,3mOhm,Rohm Semiconductor,LVDC-Remake:R_1206_3mOhm,LVDC-Remake:R_1206,,,PMR18EZPFV3L00
+35,2,"R40, R41",97.6ohm,KOA Speer Electronics,LVDC-Remake:R_1206_97.6ohm_RK73H,LVDC-Remake:R_1206,,,RK73H2BTTD97R6F
+36,1,R49,10k,Vishay Dale,Custom_Microcontroller:R_0603,Custom_Microcontroller:R_0603,,,TNPW060310K0BEEA
+37,1,R50,1.15k,Vishay Dale,Custom_Microcontroller:R_0603,Custom_Microcontroller:R_0603,,,TNPW06031K15BEEA
+38,5,"SW1, SW2, SW3, SW4, SW5",~,C&K,Custom_Microcontroller:PTS636_SK25J_SMTR_LFS,Custom_Microcontroller:PTS636 SK25J SMTR LFS,,,PTS636-SK25J-SMTR-LFS
+39,1,SW6,~,C&K,Custom_Microcontroller:JS102011JCQN,Custom_Microcontroller:JS102011JCQN,https://www.ckswitches.com/media/1422/js.pdf,,JS102011JCQN
+40,1,SW7,~,E-Switch,Custom_Microcontroller:SW_500SSP1S1M6QEA,Custom_Microcontroller:500SSP1S1M6QEA,https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/115/500.pdf,,500SSP1S1M6QEA
+41,6,"TP1, TP2, TP3, TP4, TP5, TP6",~,,LVDC-Remake:TESTPOINT,LVDC-Remake:TESTPOINT,,,
+42,2,"U1, U3",~,Espressif,Custom_Microcontroller:ESP32-S3-WROOM-1U-N8R2,Custom_Microcontroller:ESP32-S3-WROOM-1U-N8R2,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf,,ESP32-S3-WROOM-1U-N8R2
+43,2,"U2, U4",~,Winbond,Custom_Microcontroller:W25Q128JVSIQ,Custom_Microcontroller:W25Q128JVSIQ,https://www.winbond.com/resource-files/w25q128jv%20revf%2003272018%20plus.pdf,,W25Q128JVSIQ
+44,1,U5,~,STMicroelectronics,Custom_Microcontroller:STM32H745ZIT6,Custom_Microcontroller:STM32H745ZIT6,https://www.st.com/resource/en/datasheet/stm32h745ii.pdf,,STM32H745ZIT6
+45,1,U6,ATTINY85-20PU,Microchip,Custom_Microcontroller:ATTINY85-20PU,Custom_Microcontroller:ATTINY85-20PU,https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf,DNP,ATTINY85-20PU
+46,1,U7,~,Texas Instruments,LVDC-Remake:TLV170IDBVR,LVDC-Remake:TLV170IDBVR,https://www.ti.com/lit/ds/symlink/tlv170.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1705446951157&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlv170,,TLV170IDBVR
+47,2,"U8, U14",~,Microchip,Custom_Microcontroller:MCP2515T-I_ML,Custom_Microcontroller:MCP2515T-I_ML,https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf,,MCP2515T-I/ML
+48,2,"U10, U11",~,Texas Instruments,Custom_Microcontroller:TPS60150DRVR,Custom_Microcontroller:TPS60150DRVR,https://www.ti.com/lit/ds/symlink/tps60150.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1720646901366&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps60150,,TPS60150DRVR
+49,2,"U12, U13",~,NXP USA,Custom_Microcontroller:TJA1051TK_3_1J,Custom_Microcontroller:TJA1051TK_3_1J,https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf,,TJA1051TK/3/1J
+50,1,U15,~,Diodes Inc.,Custom_Microcontroller:AP63203WU-7,Custom_Microcontroller:AP63203WU-7,https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf,,AP63203WU-7
+51,1,Y1,32.768kHz,ECS Inc.,Custom_Microcontroller:ECS-327MVATX-3-CN-TR3,Custom_Microcontroller:ECS-327MVATX-3-CN-TR3,https://ecsxtal.com/store/pdf/ECS-327MVATX.pdf,,ECS-327MVATX-3-CN-TR3
+52,1,Y2,25MHz,ECS Inc.,Custom_Microcontroller:ECS-2333-250-BN-TR,Custom_Microcontroller:ECS-2333-250-BN-TR,https://ecsxtal.com/store/pdf/ecs-2325-2333.pdf,,ECS-2333-250-BN-TR
+53,2,"Y3, Y4",16MHz,ECS Inc.,Custom_Microcontroller:ECS-2333-160-BN-TR,Custom_Microcontroller:ECS-2333-160-BN-TR,https://ecsxtal.com/store/pdf/ecs-2325-2333.pdf,,ECS-2333-160-BN-TR
