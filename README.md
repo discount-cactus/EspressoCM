@@ -41,6 +41,9 @@ Link to EspressoCM's complimentary library: https://github.com/discount-cactus/E
 *NOTES:*
 - *The ESP32's are programmed on-board via the header pins `J3` (for Core 1) and `J4` (for Core 2). Pins are labeled on silkscreen.*
 
+- Library for using flash chips: https://github.com/PaulStoffregen/SerialFlash
+- Library for using CAN bus: https://github.com/coryjfowler/MCP_CAN_lib/tree/master
+
 ### ATtiny85
 
 *NOTES:*
