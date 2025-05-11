@@ -1,0 +1,3772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/brandonlantau/Documents/KiCad/7.0/projects/Espresso_Rev4.3/Espresso_Rev4.kicad_sch</source>
+    <date>Monday, November 04, 2024 at 08:04:31 AM</date>
+    <tool>Eeschema (7.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Espresso CM</title>
+        <company>B. Lantau</company>
+        <rev>4</rev>
+        <date>2024-10-22</date>
+        <source>Espresso_Rev4.kicad_sch</source>
+        <comment number="1" value="PN: 4D108-5008-004"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/">
+      <title_block>
+        <title>ESP32 Core</title>
+        <company>B. Lantau</company>
+        <rev>4</rev>
+        <date>2024-10-22</date>
+        <source>esp32.kicad_sch</source>
+        <comment number="1" value="PN: 4D108-5008-004"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/">
+      <title_block>
+        <title>ESP32 Core</title>
+        <company>B. Lantau</company>
+        <rev>4</rev>
+        <date>2024-10-22</date>
+        <source>esp32.kicad_sch</source>
+        <comment number="1" value="PN: 4D108-5008-004"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/">
+      <title_block>
+        <title>STM32H7 Control Core</title>
+        <company>B. Lantau</company>
+        <rev>4</rev>
+        <date>2024-10-22</date>
+        <source>stm32.kicad_sch</source>
+        <comment number="1" value="PN: 4D108-5008-004"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/ATTiny Core/" tstamps="/edee8ae4-b0ae-445c-8be1-9ba4cd28a3a0/">
+      <title_block>
+        <title>ATTiny85 Core</title>
+        <company>B. Lantau</company>
+        <rev>4</rev>
+        <date>2024-10-22</date>
+        <source>attiny.kicad_sch</source>
+        <comment number="1" value="PN: 4D108-5008-004"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/">
+      <title_block>
+        <title>Input Power</title>
+        <company>B. Lantau</company>
+        <rev>4</rev>
+        <date>2024-10-22</date>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value="PN: 4D108-5008-004"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C40">
+      <value>4.7nF</value>
+      <footprint>Custom_Microcontroller:C_1206</footprint>
+      <fields>
+        <field name="Voltage Rating">1kV</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_1206" description=""/>
+      <property name="Part Number" value=""/>
+      <property name="Voltage Rating" value="1kV"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Espresso_Rev4.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c0513bb-a315-481f-8bce-054876d566a3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:2X8</footprint>
+      <fields>
+        <field name="Part Number">PPPC082LFBN-RC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="HEADER-2X8" description=""/>
+      <property name="Part Number" value="PPPC082LFBN-RC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Espresso_Rev4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb10cfbe-7168-4ad6-82e4-dabc46b5c7f0</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1Mohm</value>
+      <footprint>Custom_Microcontroller:R_1206</footprint>
+      <libsource lib="Custom_Microcontroller" part="R_1206" description=""/>
+      <property name="Part Number" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Espresso_Rev4.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fc122d2-9f78-4e3f-a128-f0717892baa5</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7kohm</value>
+      <footprint>Custom_Microcontroller:R_1206</footprint>
+      <fields>
+        <field name="Part Number">CRCW12064K70JNEAHP</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_1206_4.7kohm" description=""/>
+      <property name="Part Number" value="CRCW12064K70JNEAHP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Espresso_Rev4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ab4f268-d86c-4d16-8f96-9336e5c3ea9d</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>4.7kohm</value>
+      <footprint>Custom_Microcontroller:R_1206</footprint>
+      <fields>
+        <field name="Part Number">CRCW12064K70JNEAHP</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_1206_4.7kohm" description=""/>
+      <property name="Part Number" value="CRCW12064K70JNEAHP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Espresso_Rev4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b84437ab-b91f-45e7-acb5-26ba3ff11e95</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_1uF" description=""/>
+      <property name="Part Number" value="CL10A105KA8NNNC"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>94f7a4cb-1b07-4ad5-9de0-d57a2fc0b132</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>3a281c17-1ee9-4e55-aac2-e274a3e3680f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>fb692d0f-1454-4960-8ec6-4963ee3e5b4d</tstamps>
+    </comp>
+    <comp ref="CR1">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:USBLC6-2SC6</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</datasheet>
+      <fields>
+        <field name="Part Number">USBLC6-2SC6</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="USBLC6-2SC6" description="TVS DIODE 5.25VWM 17VC SOT23-6"/>
+      <property name="Part Number" value="USBLC6-2SC6"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="TVS DIODE 5.25VWM 17VC SOT23-6"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>da589c1a-0801-4f84-8525-aaf8f4cc5401</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:LED_0603</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</datasheet>
+      <fields>
+        <field name="Part Number">LTST-C191KGKT</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="LED_0603_Orange" description=""/>
+      <property name="Part Number" value="LTST-C191KGKT"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>e5511a9e-1378-45dc-b379-cfd58373b9ea</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:1X3</footprint>
+      <libsource lib="Custom_Microcontroller" part="HEADER-1X3" description=""/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>b3956c4f-29d5-4479-bf5a-ee9db9a0bf91</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_1kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>582909cf-2134-4c20-a8af-71b41d1df3d8</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_10kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>73041ea8-80a9-48c9-8325-933a4fcddc74</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:PTS636 SK25J SMTR LFS</footprint>
+      <fields>
+        <field name="Part Number">PTS636-SK25J-SMTR-LFS</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="PTS636_SK25J_SMTR_LFS" description="BUTTON"/>
+      <property name="Part Number" value="PTS636-SK25J-SMTR-LFS"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="BUTTON"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>d5f488c4-b81c-4849-8cb3-759bb571bcef</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:PTS636 SK25J SMTR LFS</footprint>
+      <fields>
+        <field name="Part Number">PTS636-SK25J-SMTR-LFS</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="PTS636_SK25J_SMTR_LFS" description="BUTTON"/>
+      <property name="Part Number" value="PTS636-SK25J-SMTR-LFS"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="BUTTON"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>4a112587-41e2-4eea-8aaf-cdb2228f5e4f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:ESP32-S3-WROOM-1U-N8R2</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Part Number">ESP32-S3-WROOM-1U-N8R2</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="ESP32-S3-WROOM-1U-N8R2" description="RF TXRX MOD BT WIFIU.FL SMD"/>
+      <property name="Part Number" value="ESP32-S3-WROOM-1U-N8R2"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="RF TXRX MOD BT WIFIU.FL SMD"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>be83a5e0-28dc-44ce-904a-b451bd1c49f8</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:W25Q128JVSIQ</footprint>
+      <datasheet>https://www.winbond.com/resource-files/w25q128jv%20revf%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="Part Number">W25Q128JVSIQ</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="W25Q128JVSIQ" description="IC FLASH 128MBIT SPI/QUAD 8SOIC"/>
+      <property name="Part Number" value="W25Q128JVSIQ"/>
+      <property name="Sheetname" value="ESP32 Core"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="IC FLASH 128MBIT SPI/QUAD 8SOIC"/>
+      <sheetpath names="/ESP32 Core/" tstamps="/5ae2a9b5-f719-428a-b26a-bf08a2e9fc83/"/>
+      <tstamps>1e0734ea-3534-42f9-8da8-2df88adc028e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_1uF" description=""/>
+      <property name="Part Number" value="CL10A105KA8NNNC"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>94f7a4cb-1b07-4ad5-9de0-d57a2fc0b132</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>3a281c17-1ee9-4e55-aac2-e274a3e3680f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>fb692d0f-1454-4960-8ec6-4963ee3e5b4d</tstamps>
+    </comp>
+    <comp ref="CR2">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:USBLC6-2SC6</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</datasheet>
+      <fields>
+        <field name="Part Number">USBLC6-2SC6</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="USBLC6-2SC6" description="TVS DIODE 5.25VWM 17VC SOT23-6"/>
+      <property name="Part Number" value="USBLC6-2SC6"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="TVS DIODE 5.25VWM 17VC SOT23-6"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>da589c1a-0801-4f84-8525-aaf8f4cc5401</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:LED_0603</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</datasheet>
+      <fields>
+        <field name="Part Number">LTST-C191KGKT</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="LED_0603_Orange" description=""/>
+      <property name="Part Number" value="LTST-C191KGKT"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>e5511a9e-1378-45dc-b379-cfd58373b9ea</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:1X3</footprint>
+      <libsource lib="Custom_Microcontroller" part="HEADER-1X3" description=""/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>b3956c4f-29d5-4479-bf5a-ee9db9a0bf91</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_1kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>582909cf-2134-4c20-a8af-71b41d1df3d8</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_10kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>73041ea8-80a9-48c9-8325-933a4fcddc74</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:PTS636 SK25J SMTR LFS</footprint>
+      <fields>
+        <field name="Part Number">PTS636-SK25J-SMTR-LFS</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="PTS636_SK25J_SMTR_LFS" description="BUTTON"/>
+      <property name="Part Number" value="PTS636-SK25J-SMTR-LFS"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="BUTTON"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>d5f488c4-b81c-4849-8cb3-759bb571bcef</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:PTS636 SK25J SMTR LFS</footprint>
+      <fields>
+        <field name="Part Number">PTS636-SK25J-SMTR-LFS</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="PTS636_SK25J_SMTR_LFS" description="BUTTON"/>
+      <property name="Part Number" value="PTS636-SK25J-SMTR-LFS"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="BUTTON"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>4a112587-41e2-4eea-8aaf-cdb2228f5e4f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:ESP32-S3-WROOM-1U-N8R2</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Part Number">ESP32-S3-WROOM-1U-N8R2</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="ESP32-S3-WROOM-1U-N8R2" description="RF TXRX MOD BT WIFIU.FL SMD"/>
+      <property name="Part Number" value="ESP32-S3-WROOM-1U-N8R2"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="RF TXRX MOD BT WIFIU.FL SMD"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>be83a5e0-28dc-44ce-904a-b451bd1c49f8</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:W25Q128JVSIQ</footprint>
+      <datasheet>https://www.winbond.com/resource-files/w25q128jv%20revf%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="Part Number">W25Q128JVSIQ</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="W25Q128JVSIQ" description="IC FLASH 128MBIT SPI/QUAD 8SOIC"/>
+      <property name="Part Number" value="W25Q128JVSIQ"/>
+      <property name="Sheetname" value="ESP32 Core1"/>
+      <property name="Sheetfile" value="esp32.kicad_sch"/>
+      <property name="ki_description" value="IC FLASH 128MBIT SPI/QUAD 8SOIC"/>
+      <sheetpath names="/ESP32 Core1/" tstamps="/d1cac68d-b773-4e0d-aba0-95ef55e89ca0/"/>
+      <tstamps>1e0734ea-3534-42f9-8da8-2df88adc028e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>6.3pF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10C6R2DB8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_6.3pF" description=""/>
+      <property name="Part Number" value="CL10C6R2DB8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>4447b6a7-a6a9-4352-8683-38ce65a3e8d3</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4.7uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A475MA8NQNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_4.7uF" description=""/>
+      <property name="Part Number" value="CL10A475MA8NQNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>3a628754-eb4a-43fd-a7ae-60ee92f53ace</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>6.3pF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10C6R2DB8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_6.3pF" description=""/>
+      <property name="Part Number" value="CL10C6R2DB8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>a5631309-9c1d-4daf-8562-aa6b94c009ab</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>3f54ceeb-5c71-4baa-8543-4480781d9ce9</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>d7651073-515b-48cf-9e4f-6760d3f1fff6</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>4fbf0c11-c43a-4f48-85cf-a5b78cd40548</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>08b7c314-d65c-474c-a10f-6080a7feb2fe</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>85807e7c-2a74-4d12-86f7-224078076287</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_1uF" description=""/>
+      <property name="Part Number" value="CL10A105KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>36e69fcb-fa1d-4b53-8978-580d84753ca8</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>01825403-7285-42b5-b16c-5e4a83ad661c</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>ddd5844d-bcac-4971-8f5e-e9513615ad47</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_1uF" description=""/>
+      <property name="Part Number" value="CL10A105KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>53e0dfc7-b0f4-49b5-b2e2-fc86deaec918</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>1ca6b9f6-0483-4c01-8887-a57baaefa459</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>862e000c-396b-4d94-bc6b-4017d907c2df</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_1uF" description=""/>
+      <property name="Part Number" value="CL10A105KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>dd764ef8-8da8-473e-9d12-1dedef640edd</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>5.6pF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">C0603C569C5GAC7867</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_5.6pF" description=""/>
+      <property name="Part Number" value="C0603C569C5GAC7867"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>c9993fed-a5d9-40db-a24b-fd8c740f32f9</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>6b311457-5b68-465e-8c09-d6cd26e8524f</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A105KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_1uF" description=""/>
+      <property name="Part Number" value="CL10A105KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>24b97f38-359c-4d2c-84a9-687c0e1cb651</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>89ae7163-8be0-47a1-ba60-5d41263c6d06</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>e1ca519f-6f06-48bc-aa7d-a5bcfd1f389e</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>5.6pF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">C0603C569C5GAC7867</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_5.6pF" description=""/>
+      <property name="Part Number" value="C0603C569C5GAC7867"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>1bf65143-e761-40d4-a42e-6bad08ce3b70</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>220pF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">GCM1885C2A221JA16D</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_220pF" description=""/>
+      <property name="Part Number" value="GCM1885C2A221JA16D"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>3c7c906e-da0d-4e89-87ce-12cda6cc236a</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>10uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_10uF" description=""/>
+      <property name="Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>d27db148-9a4c-41a1-b65f-659208e41470</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>edc1a3fb-762c-4f07-82b5-fe434c46129d</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_10uF" description=""/>
+      <property name="Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>50adabfe-02a5-4c94-a7b3-1af2b3eb3e94</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>911f7051-0071-4d3e-81f8-a0389395f2e5</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>10uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_10uF" description=""/>
+      <property name="Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>d2802f4b-4a8d-403a-8def-6b4f314bce28</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>f38ae443-09dd-4e7b-acc8-0934e5b4694a</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>186c4ee8-95d2-429f-b20b-fe3f1b53bab5</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>6bb96430-c4c9-4b67-801a-b23d24611a24</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>028f0383-9063-4065-8ae2-2d9b61074191</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>3b9cae6e-a77b-4431-80f1-0883f8e45c91</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>53fd042a-38ce-4b59-9577-6806040a11bb</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>0877e075-0b59-4a8d-8c0f-6e050825deda</tstamps>
+    </comp>
+    <comp ref="C63">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>b7416af6-5b12-4017-bfb1-7737c1135ef0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:LED_0603</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</datasheet>
+      <fields>
+        <field name="Part Number">LTST-C191KGKT</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="LED_0603_Orange" description=""/>
+      <property name="Part Number" value="LTST-C191KGKT"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>05e4cd8a-b446-48ac-922b-6f4a158e28aa</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>120mOhm</value>
+      <footprint>Custom_Microcontroller:FB_0603</footprint>
+      <fields>
+        <field name="Part Number">BLM18KG121TN1D</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="FB_120ohm_0603" description=""/>
+      <property name="Part Number" value="BLM18KG121TN1D"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>879ef72f-acb1-4def-8711-a0b61268aebd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:1X3</footprint>
+      <libsource lib="Custom_Microcontroller" part="HEADER-1X3" description=""/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>28a514ee-60c1-44ef-ac3d-40e2038c1082</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:3220-10-0100-00</footprint>
+      <datasheet>http://www.cnctech.us/pdfs/3220-XX-0100-00_.pdf</datasheet>
+      <fields>
+        <field name="Part Number">3220-10-0100-00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="3220-10-0100-00" description="CONN HEADER VERT 10POS 1.27MM"/>
+      <property name="Part Number" value="3220-10-0100-00"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER VERT 10POS 1.27MM"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>3d045f2f-1f9b-4a0d-8840-5e330aece803</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:20021321-00060T4LF</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_minitek127_btb.pdf</datasheet>
+      <fields>
+        <field name="Part Number">20021321-00060T4LF</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="20021321-00060T4LF" description="CONN RCPT 60POS 0.05 GOLD SMD"/>
+      <property name="Part Number" value="20021321-00060T4LF"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <property name="ki_description" value="CONN RCPT 60POS 0.05 GOLD SMD"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>f15ca061-96d3-4bb0-bc44-2193b06fd71b</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>Custom_Microcontroller:L_0603</footprint>
+      <fields>
+        <field name="Part Number">LQM18PN2R2MGHD</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="L_0603_2.2uH" description=""/>
+      <property name="Part Number" value="LQM18PN2R2MGHD"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>9d52e543-9977-4ddf-9b3a-b60afc98c191</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_0ohm" description=""/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>3665db8e-ae46-460e-afb5-69836779ab23</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_1kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>41e9c4d7-680c-4964-933e-52166d88e655</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603FT100R</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_100ohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT100R"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>a287ad78-a3ed-4288-bfdd-ea40c3e3cbd8</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>33ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603FT33R0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_33ohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT33R0"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>29f8a128-5c06-42a2-8d06-fc78170b81bf</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>33ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603FT33R0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_33ohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT33R0"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>1967f1c7-1169-4fcb-abec-7d3b741a9df1</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>33ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603FT33R0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_33ohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT33R0"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>58979cdd-fa4b-40c2-9d8d-83dd84ef1b6d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>33ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603FT33R0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_33ohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT33R0"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>35302e27-989b-4128-b844-773cd58e994b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>33ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603FT33R0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_33ohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT33R0"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>f9d2ed8b-ccf2-49d3-add5-c53347a11f8e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_10kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>3b1251c6-060a-465e-be5f-b2409587afe5</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>0ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_0ohm" description=""/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>021b3f89-15e4-4a5a-9063-16cef78ce854</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>0ohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_0ohm" description=""/>
+      <property name="Part Number" value="RMCF0603ZT0R00"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>705bc527-83ac-4fec-b076-7877aad25822</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_10kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD10K0"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>5027d0b0-3d12-4f67-8bbe-12c7ef6bb1de</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>4.7kohm</value>
+      <footprint>Custom_Microcontroller:R_1206</footprint>
+      <fields>
+        <field name="Part Number">CRCW12064K70JNEAHP</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_1206_4.7kohm" description=""/>
+      <property name="Part Number" value="CRCW12064K70JNEAHP"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>f15e6925-14e9-47d5-8b57-b35c7132e408</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:PTS636 SK25J SMTR LFS</footprint>
+      <fields>
+        <field name="Part Number">PTS636-SK25J-SMTR-LFS</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="PTS636_SK25J_SMTR_LFS" description="BUTTON"/>
+      <property name="Part Number" value="PTS636-SK25J-SMTR-LFS"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <property name="ki_description" value="BUTTON"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>cc6a6bd6-38ed-47c1-807d-5780c85335d1</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:STM32H745ZIT6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32h745ii.pdf</datasheet>
+      <fields>
+        <field name="Part Number">STM32H745ZIT6</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="STM32H745ZIT6" description="IC MCU 32BIT 2MB FLASH 144LQFP"/>
+      <property name="Part Number" value="STM32H745ZIT6"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <property name="ki_description" value="IC MCU 32BIT 2MB FLASH 144LQFP"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>8e1fb7d4-3e76-49c8-8eac-1f2c5be2d644 681a1625-d6f0-4072-a909-a14470f588c0 30573250-5f27-4e84-b4c4-dda8d4460a88</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz</value>
+      <footprint>Custom_Microcontroller:ECS-327MVATX-3-CN-TR3</footprint>
+      <datasheet>https://ecsxtal.com/store/pdf/ECS-327MVATX.pdf</datasheet>
+      <fields>
+        <field name="Part Number">ECS-327MVATX-3-CN-TR3</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="ECS-327MVATX-3-CN-TR3" description="XTAL OSC XO 32.7680KHZ SMD"/>
+      <property name="Part Number" value="ECS-327MVATX-3-CN-TR3"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="XTAL OSC XO 32.7680KHZ SMD"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>ee0cb481-f9c5-4c52-bf62-538783835915</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>25MHz</value>
+      <footprint>Custom_Microcontroller:ECS-2333-250-BN-TR</footprint>
+      <datasheet>https://ecsxtal.com/store/pdf/ecs-2325-2333.pdf</datasheet>
+      <fields>
+        <field name="Part Number">ECS-2333-250-BN-TR</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="ECS-2333-250-BN-TR" description="OSC XO 25.000MHZ 3.3V CMOS SMD"/>
+      <property name="Part Number" value="ECS-2333-250-BN-TR"/>
+      <property name="Sheetname" value="STM32 Core"/>
+      <property name="Sheetfile" value="stm32.kicad_sch"/>
+      <property name="ki_description" value="OSC XO 25.000MHZ 3.3V CMOS SMD"/>
+      <sheetpath names="/STM32 Core/" tstamps="/43e3fbb5-166a-4bce-808b-264188355098/"/>
+      <tstamps>d03dd048-8627-403a-988c-919cb04dbc32</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:LED_0603</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</datasheet>
+      <fields>
+        <field name="Part Number">LTST-C191KGKT</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="LED_0603_Orange" description=""/>
+      <property name="Part Number" value="LTST-C191KGKT"/>
+      <property name="Sheetname" value="ATTiny Core"/>
+      <property name="Sheetfile" value="attiny.kicad_sch"/>
+      <sheetpath names="/ATTiny Core/" tstamps="/edee8ae4-b0ae-445c-8be1-9ba4cd28a3a0/"/>
+      <tstamps>1f2625e4-bd85-4961-9d46-c742c87a62ef</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:LED_0603</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</datasheet>
+      <fields>
+        <field name="Part Number">LTST-C191KGKT</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="LED_0603_Orange" description=""/>
+      <property name="Part Number" value="LTST-C191KGKT"/>
+      <property name="Sheetname" value="ATTiny Core"/>
+      <property name="Sheetfile" value="attiny.kicad_sch"/>
+      <sheetpath names="/ATTiny Core/" tstamps="/edee8ae4-b0ae-445c-8be1-9ba4cd28a3a0/"/>
+      <tstamps>3edaecfa-d76d-4268-af1f-1b89a99c1695</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_1kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value="ATTiny Core"/>
+      <property name="Sheetfile" value="attiny.kicad_sch"/>
+      <sheetpath names="/ATTiny Core/" tstamps="/edee8ae4-b0ae-445c-8be1-9ba4cd28a3a0/"/>
+      <tstamps>7271fe83-4647-42c2-80cd-31e2f5f3c806</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7kohm</value>
+      <footprint>Custom_Microcontroller:R_1206</footprint>
+      <fields>
+        <field name="Part Number">CRCW12064K70JNEAHP</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_1206_4.7kohm" description=""/>
+      <property name="Part Number" value="CRCW12064K70JNEAHP"/>
+      <property name="Sheetname" value="ATTiny Core"/>
+      <property name="Sheetfile" value="attiny.kicad_sch"/>
+      <sheetpath names="/ATTiny Core/" tstamps="/edee8ae4-b0ae-445c-8be1-9ba4cd28a3a0/"/>
+      <tstamps>c857089d-27d5-4a27-ba43-c965b4190e59</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_1kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value="ATTiny Core"/>
+      <property name="Sheetfile" value="attiny.kicad_sch"/>
+      <sheetpath names="/ATTiny Core/" tstamps="/edee8ae4-b0ae-445c-8be1-9ba4cd28a3a0/"/>
+      <tstamps>77835fc1-23ea-4872-afc4-43f1e46c6185</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>ATTINY85-20PU</value>
+      <footprint>Custom_Microcontroller:ATTINY85-20PU</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf</datasheet>
+      <fields>
+        <field name="Part Number">ATTINY85-20PU</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="ATTINY85-20PU" description="IC MCU 8BIT 8KB FLASH 8DIP"/>
+      <property name="Part Number" value="ATTINY85-20PU"/>
+      <property name="Sheetname" value="ATTiny Core"/>
+      <property name="Sheetfile" value="attiny.kicad_sch"/>
+      <property name="ki_description" value="IC MCU 8BIT 8KB FLASH 8DIP"/>
+      <sheetpath names="/ATTiny Core/" tstamps="/edee8ae4-b0ae-445c-8be1-9ba4cd28a3a0/"/>
+      <tstamps>8ea0e4d3-7f1d-4488-ae2c-d64d31bd34f2</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>220pF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">C0603C221J5HACAUTO</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_220pF" description=""/>
+      <property name="Part Number" value="C0603C221J5HACAUTO"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>fe842c0b-3123-417f-b267-558a740e1a86</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>220pF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">C0603C221J5HACAUTO</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_220pF" description=""/>
+      <property name="Part Number" value="C0603C221J5HACAUTO"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>4e43fa29-e0ec-46ff-aab6-6a980cce28af</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>220pF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">C0603C221J5HACAUTO</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_220pF" description=""/>
+      <property name="Part Number" value="C0603C221J5HACAUTO"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>45d424e8-bd7d-4338-b697-db050e47bb7c</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>804e69fa-4164-4fd0-ad22-70cba61caece</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>3.3nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B332KB8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_3.3nF" description=""/>
+      <property name="Part Number" value="CL10B332KB8NNNC"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>10ce28a0-4a1d-4cac-899a-5f536ec81e9d</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>22uF</value>
+      <footprint>Custom_Microcontroller:C_1411</footprint>
+      <fields>
+        <field name="Part Number">TAJB226K020RNJ</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_1411_22uF" description=""/>
+      <property name="Part Number" value="TAJB226K020RNJ"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>2fe61c37-be2e-45f1-86ba-ce45ea41f0a6</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>22uF</value>
+      <footprint>Custom_Microcontroller:C_1411</footprint>
+      <fields>
+        <field name="Part Number">TAJB226K020RNJ</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_1411_22uF" description=""/>
+      <property name="Part Number" value="TAJB226K020RNJ"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>0926355a-3e9f-4afe-8f2b-b54448ffc46e</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>10uF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_10uF" description=""/>
+      <property name="Part Number" value="CL10A106MP8NNNC"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>35580f55-3825-4050-89c7-2618e91a8962</tstamps>
+    </comp>
+    <comp ref="C62">
+      <value>100nF</value>
+      <footprint>Custom_Microcontroller:C_0603</footprint>
+      <fields>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="C_0603_100nF" description=""/>
+      <property name="Part Number" value="CL10B104KA8NNNC"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>04f38873-e713-4476-b83a-dd058caa2027</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:SK54AHE3-LTP</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SK52AHE3-L-SK510AHE3-L(DO-214AC).pdf</datasheet>
+      <fields>
+        <field name="Part Number">SK54AHE3-LTP</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="SK54AHE3-LTP" description="DIODE SCHOTTKY 40V 5A DO214AC"/>
+      <property name="Part Number" value="SK54AHE3-LTP"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="DIODE SCHOTTKY 40V 5A DO214AC"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>002bb960-1efb-4736-a7ba-cde8e9b28758</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:LED_0603</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</datasheet>
+      <fields>
+        <field name="Part Number">LTST-C191KGKT</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="LED_0603_Orange" description=""/>
+      <property name="Part Number" value="LTST-C191KGKT"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>c37e54fc-7aca-4a3f-a677-f7493b2486cc</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:LED_0603</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</datasheet>
+      <fields>
+        <field name="Part Number">LTST-C191KGKT</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="LED_0603_Orange" description=""/>
+      <property name="Part Number" value="LTST-C191KGKT"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>3ac12c20-572c-426a-a6c3-099dde2da54b</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>1A</value>
+      <footprint>Custom_Microcontroller:MF-FSMF050X-2</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/mf-fsmf.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MF-FSMF050X-2 </field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="MF-FSMF050X-2 " description="PTC RESET FUSE 6V 500MA 0603"/>
+      <property name="Part Number" value="MF-FSMF050X-2 "/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="PTC RESET FUSE 6V 500MA 0603"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>120c1d79-506c-4f31-8736-ad71779cf5b8</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:OSTTE020104</footprint>
+      <datasheet>https://www.on-shore.com/wp-content/uploads/OSTTEXX0104.pdf</datasheet>
+      <fields>
+        <field name="Part Number">OSTTE020104</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="OSTTE020104" description="TERM BLK 2POS SIDE ENT 3.5MM PCB"/>
+      <property name="Part Number" value="OSTTE020104"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="TERM BLK 2POS SIDE ENT 3.5MM PCB"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>b507b1f2-79f9-47e1-9c76-2961e42cab27</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:S2B-PH-K-S</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="Part Number">S2B-PH-K-S</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="S2B-PH-K-S" description="CONN HEADER R/A 2POS 2MM"/>
+      <property name="Part Number" value="S2B-PH-K-S"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="CONN HEADER R/A 2POS 2MM"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>4a9aad84-1a98-4b37-8916-6c86d5db7171</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH</value>
+      <footprint>Custom_Microcontroller:L_0530CDMC</footprint>
+      <datasheet>https://products.sumida.com/products/pdf/0530CDMCCDS.pdf</datasheet>
+      <fields>
+        <field name="Part Number">0530CDMCCDS-2R2MC</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="L_0603_2.2uH_0530CDMC" description="FIXED IND 2.2UH 5.8A 29MOHM SMD"/>
+      <property name="Part Number" value="0530CDMCCDS-2R2MC"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="FIXED IND 2.2UH 5.8A 29MOHM SMD"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>8f183c32-a444-423c-a1d4-844042ba2ff6</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:DMP3099L-7</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</datasheet>
+      <fields>
+        <field name="Part Number">DMP3099L-7</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="DMP3099L-7" description="MOSFET P-CH 30V 3.8A SOT23"/>
+      <property name="Part Number" value="DMP3099L-7"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="MOSFET P-CH 30V 3.8A SOT23"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>d256c2b0-59cf-41e6-a017-ad411e79387f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603FT100K</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_100kohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT100K"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>cd527fca-a2b4-4382-97b7-1d68c8fb2f28</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RMCF0603FT100K</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_100kohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT100K"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>2c65ccbf-98c1-4dc7-8883-7caba761f62a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>35.7kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Alt Part Number">TNPW060335K7BEEA</field>
+        <field name="Part Number">RMCF0603FT35K7</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_35.7kohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT35K7"/>
+      <property name="Alt Part Number" value="TNPW060335K7BEEA"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>6c8edc60-20f4-4e75-97b5-1a24f18091d3</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>35.7kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Alt Part Number">TNPW060335K7BEEA</field>
+        <field name="Part Number">RMCF0603FT35K7</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_35.7kohm" description=""/>
+      <property name="Part Number" value="RMCF0603FT35K7"/>
+      <property name="Alt Part Number" value="TNPW060335K7BEEA"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>698a5d5b-b921-4a00-84e7-efd7245fbba5</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_1kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>bf4887b9-1372-4556-9a17-eba1345e3440</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>1kohm</value>
+      <footprint>Custom_Microcontroller:R_0603</footprint>
+      <fields>
+        <field name="Part Number">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="R_0603_1kohm" description=""/>
+      <property name="Part Number" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>0ee08c05-b8db-4665-9c84-e97074e98564</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>3mOhm</value>
+      <footprint>LVDC-Remake:R_1206</footprint>
+      <fields>
+        <field name="Part Number">PMR18EZPFV3L00</field>
+      </fields>
+      <libsource lib="LVDC-Remake" part="R_1206_3mOhm" description=""/>
+      <property name="Part Number" value="PMR18EZPFV3L00"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>5260e3b6-aae7-4e2b-8120-575dfe1b8e5d</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>97.6ohm</value>
+      <footprint>LVDC-Remake:R_1206</footprint>
+      <fields>
+        <field name="Part Number">RK73H2BTTD97R6F</field>
+      </fields>
+      <libsource lib="LVDC-Remake" part="R_1206_97.6ohm_RK73H" description=""/>
+      <property name="Part Number" value="RK73H2BTTD97R6F"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>781200e7-36bf-4dd7-8437-4f905f1b1f1b</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>97.6ohm</value>
+      <footprint>LVDC-Remake:R_1206</footprint>
+      <fields>
+        <field name="Part Number">RK73H2BTTD97R6F</field>
+      </fields>
+      <libsource lib="LVDC-Remake" part="R_1206_97.6ohm_RK73H" description=""/>
+      <property name="Part Number" value="RK73H2BTTD97R6F"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>d5c2e071-35c6-43dd-a814-85a02d0921e2</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:500SSP1S1M6QEA</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/115/500.pdf</datasheet>
+      <fields>
+        <field name="Part Number">500SSP1S1M6QEA</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="SW_500SSP1S1M6QEA" description="SWITCH SLIDE SPDT 5A 120V"/>
+      <property name="Part Number" value="500SSP1S1M6QEA"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="SWITCH SLIDE SPDT 5A 120V"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>f3f2daf8-f449-4aa2-922e-98c08beebddd</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>~</value>
+      <footprint>LVDC-Remake:TLV170IDBVR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv170.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1705446951157&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlv170</datasheet>
+      <fields>
+        <field name="Part Number">TLV170IDBVR</field>
+      </fields>
+      <libsource lib="LVDC-Remake" part="TLV170IDBVR" description="IC OPAMP GP 1 CIRCUIT SOT23-5"/>
+      <property name="Part Number" value="TLV170IDBVR"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="IC OPAMP GP 1 CIRCUIT SOT23-5"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>591aefdf-acb8-4964-9d65-fed3e70afe9e</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>~</value>
+      <footprint>Custom_Microcontroller:TPS62132RGTR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps62130.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1729608278852</datasheet>
+      <fields>
+        <field name="Part Number">TPS62132RGTR</field>
+      </fields>
+      <libsource lib="Custom_Microcontroller" part="TPS62132RGTR" description="IC REG BUCK 3.3V 3A 16VQFN"/>
+      <property name="Part Number" value="TPS62132RGTR"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="ki_description" value="IC REG BUCK 3.3V 3A 16VQFN"/>
+      <sheetpath names="/Input Power/" tstamps="/0b2585aa-375e-42e8-95ed-978e01761b9b/"/>
+      <tstamps>48497994-6d14-440d-98bc-d375890bb128</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Custom_Microcontroller" part="20021321-00060T4LF">
+      <description>CONN RCPT 60POS 0.05 GOLD SMD</description>
+      <docs>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_minitek127_btb.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">20021321-00060T4LF:AMPHENOL_20021321-00060T4LF</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_minitek127_btb.pdf</field>
+        <field name="Part Number">20021321-00060T4LF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="42" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="44" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="46" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="48" type="passive"/>
+        <pin num="49" name="49" type="passive"/>
+        <pin num="50" name="50" type="passive"/>
+        <pin num="51" name="51" type="passive"/>
+        <pin num="52" name="52" type="passive"/>
+        <pin num="53" name="53" type="passive"/>
+        <pin num="54" name="54" type="passive"/>
+        <pin num="55" name="55" type="passive"/>
+        <pin num="56" name="56" type="passive"/>
+        <pin num="57" name="57" type="passive"/>
+        <pin num="58" name="58" type="passive"/>
+        <pin num="59" name="59" type="passive"/>
+        <pin num="60" name="60" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="3220-10-0100-00">
+      <description>CONN HEADER VERT 10POS 1.27MM</description>
+      <docs>http://www.cnctech.us/pdfs/3220-XX-0100-00_.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">Custom_Microcontroller:3220-10-0100-00</field>
+        <field name="Datasheet">http://www.cnctech.us/pdfs/3220-XX-0100-00_.pdf</field>
+        <field name="Part Number">3220-10-0100-00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+        <pin num="6" name="6" type="bidirectional"/>
+        <pin num="7" name="7" type="bidirectional"/>
+        <pin num="8" name="8" type="bidirectional"/>
+        <pin num="9" name="9" type="bidirectional"/>
+        <pin num="10" name="10" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="ATTINY85-20PU">
+      <description>IC MCU 8BIT 8KB FLASH 8DIP</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf</docs>
+      <footprints>
+        <fp>8P3_ATM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY85-20PU</field>
+        <field name="Footprint">Custom_Microcontroller:ATTINY85-20PU</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet-Summary.pdf</field>
+        <field name="Part Number">ATTINY85-20PU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5" type="bidirectional"/>
+        <pin num="2" name="PB3" type="bidirectional"/>
+        <pin num="3" name="PB4" type="bidirectional"/>
+        <pin num="4" name="GND" type="bidirectional"/>
+        <pin num="5" name="PB0" type="bidirectional"/>
+        <pin num="6" name="PB1" type="bidirectional"/>
+        <pin num="7" name="PB2" type="bidirectional"/>
+        <pin num="8" name="VCC" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_0603_100nF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Custom_Microcontroller:C_0603</field>
+        <field name="Part Number">CL10B104KA8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_0603_10uF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Footprint">Custom_Microcontroller:C_0603</field>
+        <field name="Part Number">CL10A106MP8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_0603_1uF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Custom_Microcontroller:C_0603</field>
+        <field name="Part Number">CL10A105KA8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_0603_220pF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220pF</field>
+        <field name="Footprint">Custom_Microcontroller:C_0603</field>
+        <field name="Part Number">GCM1885C2A221JA16D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_0603_3.3nF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">3.3nF</field>
+        <field name="Footprint">Custom_Microcontroller:C_0603</field>
+        <field name="Part Number">CL10B332KB8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_0603_4.7uF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF</field>
+        <field name="Footprint">Custom_Microcontroller:C_0603</field>
+        <field name="Part Number">CL10A475MA8NQNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_0603_5.6pF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">5.6pF</field>
+        <field name="Footprint">Custom_Microcontroller:C_0603</field>
+        <field name="Part Number">C0603C569C5GAC7867</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_0603_6.3pF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">6.3pF</field>
+        <field name="Footprint">Custom_Microcontroller:C_0603</field>
+        <field name="Part Number">CL10C6R2DB8NNNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_1206">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Custom_Microcontroller:C_1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="C_1411_22uF">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF</field>
+        <field name="Footprint">Custom_Microcontroller:C_1411</field>
+        <field name="Part Number">TAJB226K020RNJ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="DMP3099L-7">
+      <description>MOSFET P-CH 30V 3.8A SOT23</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</docs>
+      <footprints>
+        <fp>DMP3099L-7_DIO</fp>
+        <fp>DMP3099L-7_DIO-M</fp>
+        <fp>DMP3099L-7_DIO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Footprint">Custom_Microcontroller:DMP3099L-7</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP3099L.pdf</field>
+        <field name="Part Number">DMP3099L-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="ECS-2333-250-BN-TR">
+      <description>OSC XO 25.000MHZ 3.3V CMOS SMD</description>
+      <docs>https://ecsxtal.com/store/pdf/ecs-2325-2333.pdf</docs>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">25MHz</field>
+        <field name="Footprint">Custom_Microcontroller:ECS-2333-250-BN-TR</field>
+        <field name="Datasheet">https://ecsxtal.com/store/pdf/ecs-2325-2333.pdf</field>
+        <field name="Part Number">ECS-2333-250-BN-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="ECS-327MVATX-3-CN-TR3">
+      <description>XTAL OSC XO 32.7680KHZ SMD</description>
+      <docs>https://ecsxtal.com/store/pdf/ECS-327MVATX.pdf</docs>
+      <footprints>
+        <fp>ECS-3951M/3953M_ECS</fp>
+        <fp>ECS-3951M/3953M_ECS-M</fp>
+        <fp>ECS-3951M/3953M_ECS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">32.768kHz</field>
+        <field name="Footprint">Custom_Microcontroller:ECS-327MVATX-3-CN-TR3</field>
+        <field name="Datasheet">https://ecsxtal.com/store/pdf/ECS-327MVATX.pdf</field>
+        <field name="Part Number">ECS-327MVATX-3-CN-TR3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="ESP32-S3-WROOM-1U-N8R2">
+      <description>RF TXRX MOD BT WIFIU.FL SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Custom_Microcontroller:ESP32-S3-WROOM-1U-N8R2</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</field>
+        <field name="Part Number">ESP32-S3-WROOM-1U-N8R2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="bidirectional"/>
+        <pin num="2" name="3V3" type="bidirectional"/>
+        <pin num="3" name="EN" type="bidirectional"/>
+        <pin num="4" name="IO4" type="bidirectional"/>
+        <pin num="5" name="IO5" type="bidirectional"/>
+        <pin num="6" name="IO6" type="bidirectional"/>
+        <pin num="7" name="IO7" type="bidirectional"/>
+        <pin num="8" name="IO15" type="bidirectional"/>
+        <pin num="9" name="IO16" type="bidirectional"/>
+        <pin num="10" name="IO17" type="bidirectional"/>
+        <pin num="11" name="IO18" type="bidirectional"/>
+        <pin num="12" name="IO8" type="bidirectional"/>
+        <pin num="13" name="IO19" type="bidirectional"/>
+        <pin num="14" name="IO20" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO46" type="bidirectional"/>
+        <pin num="17" name="IO9" type="bidirectional"/>
+        <pin num="18" name="IO10" type="bidirectional"/>
+        <pin num="19" name="IO11" type="bidirectional"/>
+        <pin num="20" name="IO12" type="bidirectional"/>
+        <pin num="21" name="IO13" type="bidirectional"/>
+        <pin num="22" name="IO14" type="bidirectional"/>
+        <pin num="23" name="IO21" type="bidirectional"/>
+        <pin num="24" name="IO47" type="bidirectional"/>
+        <pin num="25" name="IO48" type="bidirectional"/>
+        <pin num="26" name="IO45" type="bidirectional"/>
+        <pin num="27" name="IO0" type="bidirectional"/>
+        <pin num="28" name="IO35" type="bidirectional"/>
+        <pin num="29" name="IO36" type="bidirectional"/>
+        <pin num="30" name="IO37" type="bidirectional"/>
+        <pin num="31" name="IO38" type="bidirectional"/>
+        <pin num="32" name="IO39" type="bidirectional"/>
+        <pin num="33" name="IO40" type="bidirectional"/>
+        <pin num="34" name="IO41" type="bidirectional"/>
+        <pin num="35" name="IO42" type="bidirectional"/>
+        <pin num="36" name="RXD0" type="bidirectional"/>
+        <pin num="37" name="TXD0" type="bidirectional"/>
+        <pin num="38" name="IO2" type="bidirectional"/>
+        <pin num="39" name="IO1" type="bidirectional"/>
+        <pin num="40" name="GND" type="bidirectional"/>
+        <pin num="41" name="GND" type="bidirectional"/>
+        <pin num="42" name="GND" type="bidirectional"/>
+        <pin num="43" name="GND" type="bidirectional"/>
+        <pin num="44" name="GND" type="bidirectional"/>
+        <pin num="45" name="GND" type="bidirectional"/>
+        <pin num="46" name="GND" type="bidirectional"/>
+        <pin num="47" name="GND" type="bidirectional"/>
+        <pin num="48" name="GND" type="bidirectional"/>
+        <pin num="49" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="FB_120ohm_0603">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">120mOhm</field>
+        <field name="Footprint">Custom_Microcontroller:FB_0603</field>
+        <field name="Part Number">BLM18KG121TN1D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="FIDUCIAL">
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Footprint">Custom_Microcontroller:Fiducial_1.5mm_Mask3mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="HEADER-1X3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">Custom_Microcontroller:1X3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="HEADER-2X8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">Custom_Microcontroller:2X8</field>
+        <field name="Part Number">PPPC082LFBN-RC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+        <pin num="6" name="6" type="bidirectional"/>
+        <pin num="7" name="7" type="bidirectional"/>
+        <pin num="8" name="8" type="bidirectional"/>
+        <pin num="9" name="9" type="bidirectional"/>
+        <pin num="10" name="10" type="bidirectional"/>
+        <pin num="11" name="11" type="bidirectional"/>
+        <pin num="12" name="12" type="bidirectional"/>
+        <pin num="13" name="13" type="bidirectional"/>
+        <pin num="14" name="14" type="bidirectional"/>
+        <pin num="15" name="15" type="bidirectional"/>
+        <pin num="16" name="16" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="LED_0603_Orange">
+      <docs>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</docs>
+      <footprints>
+        <fp>LED_LTST-C191KGKT_LTO</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">Custom_Microcontroller:LED_0603</field>
+        <field name="Datasheet">https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</field>
+        <field name="Part Number">LTST-C191KGKT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="L_0603_2.2uH">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">2.2uH</field>
+        <field name="Footprint">Custom_Microcontroller:L_0603</field>
+        <field name="Part Number">LQM18PN2R2MGHD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="L_0603_2.2uH_0530CDMC">
+      <description>FIXED IND 2.2UH 5.8A 29MOHM SMD</description>
+      <docs>https://products.sumida.com/products/pdf/0530CDMCCDS.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">2.2uH</field>
+        <field name="Footprint">Custom_Microcontroller:L_0530CDMC</field>
+        <field name="Datasheet">https://products.sumida.com/products/pdf/0530CDMCCDS.pdf</field>
+        <field name="Part Number">0530CDMCCDS-2R2MC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="MF-FSMF050X-2 ">
+      <description>PTC RESET FUSE 6V 500MA 0603</description>
+      <docs>https://www.bourns.com/docs/product-datasheets/mf-fsmf.pdf</docs>
+      <footprints>
+        <fp>0ZCJ_BEL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">1A</field>
+        <field name="Footprint">Custom_Microcontroller:MF-FSMF050X-2</field>
+        <field name="Datasheet">https://www.bourns.com/docs/product-datasheets/mf-fsmf.pdf</field>
+        <field name="Part Number">MF-FSMF050X-2 </field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="OSTTE020104">
+      <description>TERM BLK 2POS SIDE ENT 3.5MM PCB</description>
+      <docs>https://www.on-shore.com/wp-content/uploads/OSTTEXX0104.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">Custom_Microcontroller:OSTTE020104</field>
+        <field name="Datasheet">https://www.on-shore.com/wp-content/uploads/OSTTEXX0104.pdf</field>
+        <field name="Part Number">OSTTE020104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="PTS636_SK25J_SMTR_LFS">
+      <description>BUTTON</description>
+      <footprints>
+        <fp>SW_PTS636_SK25J_SMTR_LFS_CNK</fp>
+        <fp>SW_PTS636_SK25J_SMTR_LFS_CNK-M</fp>
+        <fp>SW_PTS636_SK25J_SMTR_LFS_CNK-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Footprint">Custom_Microcontroller:PTS636 SK25J SMTR LFS</field>
+        <field name="Part Number">PTS636-SK25J-SMTR-LFS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_0603_0ohm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0ohm</field>
+        <field name="Footprint">Custom_Microcontroller:R_0603</field>
+        <field name="Part Number">RMCF0603ZT0R00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_0603_100kohm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100kohm</field>
+        <field name="Footprint">Custom_Microcontroller:R_0603</field>
+        <field name="Part Number">RMCF0603FT100K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_0603_100ohm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100ohm</field>
+        <field name="Footprint">Custom_Microcontroller:R_0603</field>
+        <field name="Part Number">RMCF0603FT100R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_0603_10kohm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10kohm</field>
+        <field name="Footprint">Custom_Microcontroller:R_0603</field>
+        <field name="Part Number">RNCP0603FTD10K0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_0603_1kohm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1kohm</field>
+        <field name="Footprint">Custom_Microcontroller:R_0603</field>
+        <field name="Part Number">RNCP0603FTD1K00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_0603_33ohm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">33ohm</field>
+        <field name="Footprint">Custom_Microcontroller:R_0603</field>
+        <field name="Part Number">RMCF0603FT33R0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_0603_35.7kohm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">35.7kohm</field>
+        <field name="Footprint">Custom_Microcontroller:R_0603</field>
+        <field name="Part Number">RMCF0603FT35K7</field>
+        <field name="Alt Part Number">TNPW060335K7BEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_1206">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">Custom_Microcontroller:R_1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="R_1206_4.7kohm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7kohm</field>
+        <field name="Footprint">Custom_Microcontroller:R_1206</field>
+        <field name="Part Number">CRCW12064K70JNEAHP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="S2B-PH-K-S">
+      <description>CONN HEADER R/A 2POS 2MM</description>
+      <docs>https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</docs>
+      <footprints>
+        <fp>CONN_S2B-PH-K-S_JST</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">Custom_Microcontroller:S2B-PH-K-S</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/ePH.pdf</field>
+        <field name="Part Number">S2B-PH-K-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="POS" type="passive"/>
+        <pin num="2" name="NEG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="SK54AHE3-LTP">
+      <description>DIODE SCHOTTKY 40V 5A DO214AC</description>
+      <docs>https://www.mccsemi.com/pdf/Products/SK52AHE3-L-SK510AHE3-L(DO-214AC).pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">Custom_Microcontroller:SK54AHE3-LTP</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/SK52AHE3-L-SK510AHE3-L(DO-214AC).pdf</field>
+        <field name="Part Number">SK54AHE3-LTP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="STM32H745ZIT6">
+      <description>IC MCU 32BIT 2MB FLASH 144LQFP</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32h745ii.pdf</docs>
+      <footprints>
+        <fp>LQFP-144</fp>
+        <fp>LQFP-144-M</fp>
+        <fp>LQFP-144-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Custom_Microcontroller:STM32H745ZIT6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32h745ii.pdf</field>
+        <field name="Part Number">STM32H745ZIT6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE2" type="bidirectional"/>
+        <pin num="2" name="PE3" type="bidirectional"/>
+        <pin num="3" name="PE4" type="bidirectional"/>
+        <pin num="4" name="PE5" type="bidirectional"/>
+        <pin num="5" name="PE6" type="bidirectional"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="VBAT" type="power_in"/>
+        <pin num="9" name="PC13" type="bidirectional"/>
+        <pin num="10" name="PC14-OSC32_IN" type="bidirectional"/>
+        <pin num="11" name="PC15-OSC32_OUT" type="bidirectional"/>
+        <pin num="12" name="VSS" type="power_in"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="VSSSMPS" type="power_in"/>
+        <pin num="15" name="VLXSMPS" type="power_in"/>
+        <pin num="16" name="VDDSMPS" type="power_in"/>
+        <pin num="17" name="VFBSMPS" type="power_in"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PF6" type="bidirectional"/>
+        <pin num="21" name="PF7" type="bidirectional"/>
+        <pin num="22" name="PF8" type="bidirectional"/>
+        <pin num="23" name="PF9" type="bidirectional"/>
+        <pin num="24" name="PF10" type="bidirectional"/>
+        <pin num="25" name="PH0-OSC_IN" type="bidirectional"/>
+        <pin num="26" name="PH1-OSC_OUT" type="bidirectional"/>
+        <pin num="27" name="NRST" type="bidirectional"/>
+        <pin num="28" name="PC0" type="bidirectional"/>
+        <pin num="29" name="PC1" type="bidirectional"/>
+        <pin num="30" name="PC2_C" type="bidirectional"/>
+        <pin num="31" name="PC3_C" type="bidirectional"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="VSS" type="power_in"/>
+        <pin num="34" name="VSSA" type="power_in"/>
+        <pin num="35" name="VREF+" type="power_in"/>
+        <pin num="36" name="VDDA" type="power_in"/>
+        <pin num="37" name="PA0" type="bidirectional"/>
+        <pin num="38" name="PA1" type="bidirectional"/>
+        <pin num="39" name="PA2" type="bidirectional"/>
+        <pin num="40" name="PA3" type="bidirectional"/>
+        <pin num="41" name="VSS" type="power_in"/>
+        <pin num="42" name="VDD" type="power_in"/>
+        <pin num="43" name="PA4" type="bidirectional"/>
+        <pin num="44" name="PA5" type="bidirectional"/>
+        <pin num="45" name="PA6" type="bidirectional"/>
+        <pin num="46" name="PA7" type="bidirectional"/>
+        <pin num="47" name="PC4" type="bidirectional"/>
+        <pin num="48" name="PC5" type="bidirectional"/>
+        <pin num="49" name="PB0" type="bidirectional"/>
+        <pin num="50" name="PB1" type="bidirectional"/>
+        <pin num="51" name="PB2" type="bidirectional"/>
+        <pin num="52" name="PF11" type="bidirectional"/>
+        <pin num="53" name="PF14" type="bidirectional"/>
+        <pin num="54" name="PF15" type="bidirectional"/>
+        <pin num="55" name="VSS" type="power_in"/>
+        <pin num="56" name="VDD" type="power_in"/>
+        <pin num="57" name="PE7" type="bidirectional"/>
+        <pin num="58" name="PE8" type="bidirectional"/>
+        <pin num="59" name="PE9" type="bidirectional"/>
+        <pin num="60" name="PE10" type="bidirectional"/>
+        <pin num="61" name="PE11" type="bidirectional"/>
+        <pin num="62" name="PE12" type="bidirectional"/>
+        <pin num="63" name="PE13" type="bidirectional"/>
+        <pin num="64" name="PE14" type="bidirectional"/>
+        <pin num="65" name="PE15" type="bidirectional"/>
+        <pin num="66" name="PB10" type="bidirectional"/>
+        <pin num="67" name="PB11" type="bidirectional"/>
+        <pin num="68" name="VCAP" type="power_in"/>
+        <pin num="69" name="VSS" type="power_in"/>
+        <pin num="70" name="VDDLDO" type="power_in"/>
+        <pin num="71" name="VDD" type="power_in"/>
+        <pin num="72" name="PB12" type="bidirectional"/>
+        <pin num="73" name="PB13" type="bidirectional"/>
+        <pin num="74" name="PB14" type="bidirectional"/>
+        <pin num="75" name="PB15" type="bidirectional"/>
+        <pin num="76" name="PD8" type="bidirectional"/>
+        <pin num="77" name="PD9" type="bidirectional"/>
+        <pin num="78" name="PD10" type="bidirectional"/>
+        <pin num="79" name="VDD" type="power_in"/>
+        <pin num="80" name="VSS" type="power_in"/>
+        <pin num="81" name="PD11" type="bidirectional"/>
+        <pin num="82" name="PD12" type="bidirectional"/>
+        <pin num="83" name="PD13" type="bidirectional"/>
+        <pin num="84" name="PD14" type="bidirectional"/>
+        <pin num="85" name="PD15" type="bidirectional"/>
+        <pin num="86" name="PG6" type="bidirectional"/>
+        <pin num="87" name="PG7" type="bidirectional"/>
+        <pin num="88" name="PG8" type="bidirectional"/>
+        <pin num="89" name="VSS" type="power_in"/>
+        <pin num="90" name="VDD50USB" type="power_in"/>
+        <pin num="91" name="VDD33USB" type="power_in"/>
+        <pin num="92" name="VDD" type="power_in"/>
+        <pin num="93" name="PC6" type="bidirectional"/>
+        <pin num="94" name="PC7" type="bidirectional"/>
+        <pin num="95" name="PC8" type="bidirectional"/>
+        <pin num="96" name="PC9" type="bidirectional"/>
+        <pin num="97" name="PA8" type="bidirectional"/>
+        <pin num="98" name="PA9" type="bidirectional"/>
+        <pin num="99" name="PA10" type="bidirectional"/>
+        <pin num="100" name="PA11" type="bidirectional"/>
+        <pin num="101" name="PA12" type="bidirectional"/>
+        <pin num="102" name="PA13" type="bidirectional"/>
+        <pin num="103" name="VCAP" type="power_in"/>
+        <pin num="104" name="VSS" type="power_in"/>
+        <pin num="105" name="VDDLDO" type="power_in"/>
+        <pin num="106" name="VDD" type="power_in"/>
+        <pin num="107" name="PA14" type="bidirectional"/>
+        <pin num="108" name="PA15" type="bidirectional"/>
+        <pin num="109" name="PC10" type="bidirectional"/>
+        <pin num="110" name="PC11" type="bidirectional"/>
+        <pin num="111" name="PC12" type="bidirectional"/>
+        <pin num="112" name="PD0" type="bidirectional"/>
+        <pin num="113" name="PD1" type="bidirectional"/>
+        <pin num="114" name="PD2" type="bidirectional"/>
+        <pin num="115" name="PD3" type="bidirectional"/>
+        <pin num="116" name="PD4" type="bidirectional"/>
+        <pin num="117" name="PD5" type="bidirectional"/>
+        <pin num="118" name="VSS" type="power_in"/>
+        <pin num="119" name="VDD" type="power_in"/>
+        <pin num="120" name="PD6" type="bidirectional"/>
+        <pin num="121" name="PD7" type="bidirectional"/>
+        <pin num="122" name="PG9" type="bidirectional"/>
+        <pin num="123" name="PG10" type="bidirectional"/>
+        <pin num="124" name="PG11" type="bidirectional"/>
+        <pin num="125" name="PG12" type="bidirectional"/>
+        <pin num="126" name="PG13" type="bidirectional"/>
+        <pin num="127" name="PG14" type="bidirectional"/>
+        <pin num="128" name="VSS" type="power_in"/>
+        <pin num="129" name="VDD" type="power_in"/>
+        <pin num="130" name="PB3" type="bidirectional"/>
+        <pin num="131" name="PB4" type="bidirectional"/>
+        <pin num="132" name="PB5" type="bidirectional"/>
+        <pin num="133" name="PB6" type="bidirectional"/>
+        <pin num="134" name="PB7" type="bidirectional"/>
+        <pin num="135" name="BOOT0" type="input"/>
+        <pin num="136" name="PB8" type="bidirectional"/>
+        <pin num="137" name="PB9" type="bidirectional"/>
+        <pin num="138" name="PE0" type="bidirectional"/>
+        <pin num="139" name="PE1" type="bidirectional"/>
+        <pin num="140" name="VCAP" type="power_in"/>
+        <pin num="141" name="VSS" type="power_in"/>
+        <pin num="142" name="PDR_ON" type="bidirectional"/>
+        <pin num="143" name="VDDLDO" type="power_in"/>
+        <pin num="144" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="SW_500SSP1S1M6QEA">
+      <description>SWITCH SLIDE SPDT 5A 120V</description>
+      <docs>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/115/500.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Footprint">Custom_Microcontroller:500SSP1S1M6QEA</field>
+        <field name="Datasheet">https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/115/500.pdf</field>
+        <field name="Part Number">500SSP1S1M6QEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="TPS62132RGTR">
+      <description>IC REG BUCK 3.3V 3A 16VQFN</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps62130.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1729608278852</docs>
+      <footprints>
+        <fp>RGT16_1P7X1P7</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Custom_Microcontroller:TPS62132RGTR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps62130.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1729608278852</field>
+        <field name="Part Number">TPS62132RGTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+        <pin num="4" name="PG" type="passive"/>
+        <pin num="5" name="FB" type="passive"/>
+        <pin num="6" name="AGND" type="passive"/>
+        <pin num="7" name="FSW" type="passive"/>
+        <pin num="8" name="DEF" type="passive"/>
+        <pin num="9" name="SS/TR" type="passive"/>
+        <pin num="10" name="AVIN" type="passive"/>
+        <pin num="11" name="PVIN" type="passive"/>
+        <pin num="12" name="PVIN" type="passive"/>
+        <pin num="13" name="EN" type="passive"/>
+        <pin num="14" name="VOS" type="passive"/>
+        <pin num="15" name="PGND" type="passive"/>
+        <pin num="16" name="PGND" type="passive"/>
+        <pin num="17" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="USBLC6-2SC6">
+      <description>TVS DIODE 5.25VWM 17VC SOT23-6</description>
+      <docs>https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</docs>
+      <footprints>
+        <fp>SOT23-6L_STM</fp>
+        <fp>SOT23-6L_STM-M</fp>
+        <fp>SOT23-6L_STM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CR</field>
+        <field name="Footprint">Custom_Microcontroller:USBLC6-2SC6</field>
+        <field name="Datasheet">https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="Part Number">USBLC6-2SC6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+        <pin num="6" name="6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Microcontroller" part="W25Q128JVSIQ">
+      <description>IC FLASH 128MBIT SPI/QUAD 8SOIC</description>
+      <docs>https://www.winbond.com/resource-files/w25q128jv%20revf%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC_208MIL_WIN</fp>
+        <fp>SOIC_208MIL_WIN-M</fp>
+        <fp>SOIC_208MIL_WIN-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Custom_Microcontroller:W25Q128JVSIQ</field>
+        <field name="Datasheet">https://www.winbond.com/resource-files/w25q128jv%20revf%2003272018%20plus.pdf</field>
+        <field name="Part Number">W25Q128JVSIQ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="/CS" type="passive"/>
+        <pin num="2" name="DO(IO1)" type="passive"/>
+        <pin num="3" name="/WP(IO2)" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="DI(IO0)" type="passive"/>
+        <pin num="6" name="CLK" type="passive"/>
+        <pin num="7" name="/HOLD_/RESET" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LVDC-Remake" part="R_1206_3mOhm">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">3mOhm</field>
+        <field name="Footprint">LVDC-Remake:R_1206</field>
+        <field name="Part Number">PMR18EZPFV3L00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LVDC-Remake" part="R_1206_97.6ohm_RK73H">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">97.6ohm</field>
+        <field name="Footprint">LVDC-Remake:R_1206</field>
+        <field name="Part Number">RK73H2BTTD97R6F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LVDC-Remake" part="TESTPOINT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Footprint">LVDC-Remake:TESTPOINT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LVDC-Remake" part="TLV170IDBVR">
+      <description>IC OPAMP GP 1 CIRCUIT SOT23-5</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlv170.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1705446951157&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlv170</docs>
+      <footprints>
+        <fp>DBV0005A_N</fp>
+        <fp>DBV0005A_M</fp>
+        <fp>DBV0005A_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">LVDC-Remake:TLV170IDBVR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv170.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1705446951157&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftlv170</field>
+        <field name="Part Number">TLV170IDBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="passive"/>
+        <pin num="2" name="V-" type="passive"/>
+        <pin num="3" name="IN+" type="passive"/>
+        <pin num="4" name="IN-" type="passive"/>
+        <pin num="5" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Custom_Microcontroller">
+      <uri>/Users/brandonlantau/Documents/KiCad/7.0/symbols/Custom_Microcontroller.kicad_sym</uri>
+    </library>
+    <library logical="LVDC-Remake">
+      <uri>/Users/brandonlantau/Documents/KiCad/7.0/symbols/LVDC-Remake.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C33" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C45" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C46" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C47" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C48" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C49" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C50" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="CR1" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="CR2" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="FB1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R37" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="3V3" pintype="bidirectional"/>
+      <node ref="U1" pin="30" pinfunction="IO37" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="3V3" pintype="bidirectional"/>
+      <node ref="U3" pin="29" pinfunction="IO36" pintype="bidirectional"/>
+      <node ref="U4" pin="8" pinfunction="VCC" pintype="passive"/>
+      <node ref="U5" pin="106" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="119" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="129" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="144" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="16" pinfunction="VDDSMPS" pintype="power_in"/>
+      <node ref="U5" pin="19" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="42" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="56" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="71" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="79" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U5" pin="90" pinfunction="VDD50USB" pintype="power_in"/>
+      <node ref="U5" pin="91" pinfunction="VDD33USB" pintype="power_in"/>
+      <node ref="U5" pin="92" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="V+" pintype="passive"/>
+      <node ref="U8" pin="14" pinfunction="VOS" pintype="passive"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="F1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R38" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/ATTiny Core/PB1">
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/ATTiny Core/PB3">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/ESP1_IO15">
+      <node ref="J1" pin="11" pinfunction="11" pintype="bidirectional"/>
+      <node ref="U1" pin="8" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/ESP1_IO16">
+      <node ref="J1" pin="12" pinfunction="12" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/ESP1_IO17">
+      <node ref="J1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="U1" pin="10" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/ESP1_IO18">
+      <node ref="J1" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="U1" pin="11" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/ESP1_SCL">
+      <node ref="J1" pin="10" pinfunction="10" pintype="bidirectional"/>
+      <node ref="U1" pin="17" pinfunction="IO9" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/ESP1_SDA">
+      <node ref="J1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="IO8" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/ESP2_IO15">
+      <node ref="J1" pin="13" pinfunction="13" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/ESP2_IO16">
+      <node ref="J1" pin="14" pinfunction="14" pintype="bidirectional"/>
+      <node ref="U3" pin="9" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/ESP2_IO17">
+      <node ref="J1" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="U3" pin="10" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/ESP2_IO18">
+      <node ref="J1" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="U3" pin="11" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/ESP2_SCL">
+      <node ref="J1" pin="15" pinfunction="15" pintype="bidirectional"/>
+      <node ref="U3" pin="17" pinfunction="IO9" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/ESP2_SDA">
+      <node ref="J1" pin="7" pinfunction="7" pintype="bidirectional"/>
+      <node ref="U3" pin="12" pinfunction="IO8" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/ESP32 Core/CLK">
+      <node ref="U1" pin="20" pinfunction="IO12" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="CLK" pintype="passive"/>
+    </net>
+    <net code="18" name="/ESP32 Core/CORESEL1">
+      <node ref="U1" pin="29" pinfunction="IO36" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/ESP32 Core/D+">
+      <node ref="CR1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/ESP32 Core/D-">
+      <node ref="CR1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/ESP32 Core/EN">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/ESP32 Core/FLASH_CS">
+      <node ref="U1" pin="18" pinfunction="IO10" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="/CS" pintype="passive"/>
+    </net>
+    <net code="23" name="/ESP32 Core/IO0">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/ESP32 Core/LED">
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="IO46" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/ESP32 Core/MISO">
+      <node ref="U1" pin="21" pinfunction="IO13" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="DO(IO1)" pintype="passive"/>
+    </net>
+    <net code="26" name="/ESP32 Core/MOSI">
+      <node ref="U1" pin="19" pinfunction="IO11" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="DI(IO0)" pintype="passive"/>
+    </net>
+    <net code="27" name="/ESP32 Core/USB_D+">
+      <node ref="CR1" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="U1" pin="14" pinfunction="IO20" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/ESP32 Core/USB_D-">
+      <node ref="CR1" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="U1" pin="13" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/ESP32 Core1/CLK">
+      <node ref="U3" pin="20" pinfunction="IO12" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="CLK" pintype="passive"/>
+    </net>
+    <net code="30" name="/ESP32 Core1/CORESEL0">
+      <node ref="U3" pin="30" pinfunction="IO37" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/ESP32 Core1/D+">
+      <node ref="CR2" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/ESP32 Core1/D-">
+      <node ref="CR2" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/ESP32 Core1/EN">
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/ESP32 Core1/FLASH_CS">
+      <node ref="U3" pin="18" pinfunction="IO10" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="/CS" pintype="passive"/>
+    </net>
+    <net code="35" name="/ESP32 Core1/IO0">
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/ESP32 Core1/LED">
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="IO46" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/ESP32 Core1/MISO">
+      <node ref="U3" pin="21" pinfunction="IO13" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="DO(IO1)" pintype="passive"/>
+    </net>
+    <net code="38" name="/ESP32 Core1/MOSI">
+      <node ref="U3" pin="19" pinfunction="IO11" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="DI(IO0)" pintype="passive"/>
+    </net>
+    <net code="39" name="/ESP32 Core1/USB_D+">
+      <node ref="CR2" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="U3" pin="14" pinfunction="IO20" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/ESP32 Core1/USB_D-">
+      <node ref="CR2" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="U3" pin="13" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/Input Power/PG">
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="PG" pintype="passive"/>
+    </net>
+    <net code="42" name="/Input Power/VIN">
+      <node ref="D6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="SW7" pin="3" pintype="passive"/>
+    </net>
+    <net code="43" name="/Input Power/VIN+">
+      <node ref="R39" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="/Input Power/VIN-">
+      <node ref="C61" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C62" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="10" pinfunction="AVIN" pintype="passive"/>
+      <node ref="U8" pin="11" pinfunction="PVIN" pintype="passive"/>
+      <node ref="U8" pin="12" pinfunction="PVIN" pintype="passive"/>
+      <node ref="U8" pin="13" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="45" name="/SHIELD">
+      <node ref="C40" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="46" name="/STM32 Core/BOOT0">
+      <node ref="C41" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="135" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="47" name="/STM32 Core/ETH_COL">
+      <node ref="J6" pin="33" pinfunction="33" pintype="passive"/>
+      <node ref="U5" pin="40" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/STM32 Core/ETH_CRS">
+      <node ref="J6" pin="27" pinfunction="27" pintype="passive"/>
+      <node ref="U5" pin="37" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/STM32 Core/ETH_MDC">
+      <node ref="J6" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="U5" pin="29" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/STM32 Core/ETH_MDIO">
+      <node ref="J6" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="U5" pin="39" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/STM32 Core/ETH_RXD0">
+      <node ref="J6" pin="43" pinfunction="43" pintype="passive"/>
+      <node ref="U5" pin="47" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/STM32 Core/ETH_RXD1">
+      <node ref="J6" pin="45" pinfunction="45" pintype="passive"/>
+      <node ref="U5" pin="48" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/STM32 Core/ETH_RXD2">
+      <node ref="J6" pin="47" pinfunction="47" pintype="passive"/>
+      <node ref="U5" pin="49" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/STM32 Core/ETH_RXD3">
+      <node ref="J6" pin="49" pinfunction="49" pintype="passive"/>
+      <node ref="U5" pin="50" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/STM32 Core/ETH_RX_CLK">
+      <node ref="J6" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="U5" pin="38" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/STM32 Core/ETH_RX_DV">
+      <node ref="J6" pin="41" pinfunction="41" pintype="passive"/>
+      <node ref="U5" pin="46" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/STM32 Core/ETH_RX_ER">
+      <node ref="J6" pin="58" pinfunction="58" pintype="passive"/>
+      <node ref="U5" pin="66" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/STM32 Core/ETH_TXD0">
+      <node ref="J6" pin="54" pinfunction="54" pintype="passive"/>
+      <node ref="U5" pin="72" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/STM32 Core/ETH_TXD1">
+      <node ref="J6" pin="52" pinfunction="52" pintype="passive"/>
+      <node ref="U5" pin="73" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/STM32 Core/ETH_TXD2">
+      <node ref="J6" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="U5" pin="30" pinfunction="PC2_C" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="/STM32 Core/ETH_TXD3">
+      <node ref="J6" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="PE2" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="/STM32 Core/ETH_TX_CLK">
+      <node ref="J6" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="PC3_C" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="/STM32 Core/ETH_TX_EN">
+      <node ref="J6" pin="56" pinfunction="56" pintype="passive"/>
+      <node ref="U5" pin="67" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="/STM32 Core/ETH_TX_ER">
+      <node ref="J6" pin="51" pinfunction="51" pintype="passive"/>
+      <node ref="U5" pin="51" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="/STM32 Core/FDCAN1_RX">
+      <node ref="J6" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="U5" pin="112" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="/STM32 Core/FDCAN1_TX">
+      <node ref="J6" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="U5" pin="113" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="/STM32 Core/I2C1_SCL">
+      <node ref="J6" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U5" pin="133" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="/STM32 Core/I2C1_SDA">
+      <node ref="J6" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="U5" pin="134" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="/STM32 Core/JTAG_JTCK">
+      <node ref="J6" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="107" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="/STM32 Core/JTAG_JTDI">
+      <node ref="J6" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="108" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="/STM32 Core/JTAG_JTDO">
+      <node ref="J6" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="130" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="/STM32 Core/JTAG_JTMS">
+      <node ref="J6" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="102" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="/STM32 Core/NRST">
+      <node ref="C63" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="27" pinfunction="NRST" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="/STM32 Core/PA4">
+      <node ref="J6" pin="35" pinfunction="35" pintype="passive"/>
+      <node ref="U5" pin="43" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="/STM32 Core/PA8">
+      <node ref="J6" pin="38" pinfunction="38" pintype="passive"/>
+      <node ref="U5" pin="97" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="/STM32 Core/PA9">
+      <node ref="J6" pin="36" pinfunction="36" pintype="passive"/>
+      <node ref="U5" pin="98" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="/STM32 Core/PB8">
+      <node ref="J6" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="U5" pin="136" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="/STM32 Core/PB9">
+      <node ref="J6" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="U5" pin="137" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="/STM32 Core/PC6">
+      <node ref="J6" pin="46" pinfunction="46" pintype="passive"/>
+      <node ref="U5" pin="93" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="/STM32 Core/PC7">
+      <node ref="J6" pin="44" pinfunction="44" pintype="passive"/>
+      <node ref="U5" pin="94" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="/STM32 Core/PC8">
+      <node ref="J6" pin="42" pinfunction="42" pintype="passive"/>
+      <node ref="U5" pin="95" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="/STM32 Core/PC9">
+      <node ref="J6" pin="40" pinfunction="40" pintype="passive"/>
+      <node ref="U5" pin="96" pinfunction="PC9" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="/STM32 Core/PD2">
+      <node ref="J6" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="U5" pin="114" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="/STM32 Core/PD4">
+      <node ref="J6" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="116" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="/STM32 Core/PD5">
+      <node ref="J6" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U5" pin="117" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="/STM32 Core/PD8">
+      <node ref="J6" pin="50" pinfunction="50" pintype="passive"/>
+      <node ref="U5" pin="76" pinfunction="PD8" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="/STM32 Core/PD9">
+      <node ref="J6" pin="48" pinfunction="48" pintype="passive"/>
+      <node ref="U5" pin="77" pinfunction="PD9" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="/STM32 Core/PE0">
+      <node ref="J6" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="U5" pin="138" pinfunction="PE0" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="/STM32 Core/PF11">
+      <node ref="J6" pin="53" pinfunction="53" pintype="passive"/>
+      <node ref="U5" pin="52" pinfunction="PF11" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="/STM32 Core/PF14">
+      <node ref="J6" pin="55" pinfunction="55" pintype="passive"/>
+      <node ref="U5" pin="53" pinfunction="PF14" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="/STM32 Core/PF15">
+      <node ref="J6" pin="57" pinfunction="57" pintype="passive"/>
+      <node ref="U5" pin="54" pinfunction="PF15" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="/STM32 Core/PG11">
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U5" pin="124" pinfunction="PG11" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="/STM32 Core/PG12">
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U5" pin="125" pinfunction="PG12" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="/STM32 Core/PG13">
+      <node ref="J6" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U5" pin="126" pinfunction="PG13" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="/STM32 Core/SPI1_MISO">
+      <node ref="J6" pin="39" pinfunction="39" pintype="passive"/>
+      <node ref="U5" pin="45" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="/STM32 Core/SPI1_MOSI">
+      <node ref="J6" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U5" pin="121" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="/STM32 Core/SPI1_SCK">
+      <node ref="J6" pin="37" pinfunction="37" pintype="passive"/>
+      <node ref="U5" pin="44" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="/STM32 Core/UART4_RX">
+      <node ref="J6" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="U5" pin="110" pinfunction="PC11" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="/STM32 Core/UART4_TX">
+      <node ref="J6" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="U5" pin="109" pinfunction="PC10" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="/STM32 Core/USB_D+">
+      <node ref="J6" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="U5" pin="101" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="/STM32 Core/USB_D-">
+      <node ref="J6" pin="32" pinfunction="32" pintype="passive"/>
+      <node ref="U5" pin="100" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="/STM32 Core/USB_ID">
+      <node ref="J6" pin="34" pinfunction="34" pintype="passive"/>
+      <node ref="U5" pin="99" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="/STM32 Core/VCAP">
+      <node ref="C23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C30" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C32" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C34" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="103" pinfunction="VCAP" pintype="power_in"/>
+      <node ref="U5" pin="140" pinfunction="VCAP" pintype="power_in"/>
+      <node ref="U5" pin="68" pinfunction="VCAP" pintype="power_in"/>
+    </net>
+    <net code="104" name="/STM32 Core/VDDA">
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="FB1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="36" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="105" name="/STM32 Core/VDD_LDO">
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="105" pinfunction="VDDLDO" pintype="power_in"/>
+      <node ref="U5" pin="143" pinfunction="VDDLDO" pintype="power_in"/>
+      <node ref="U5" pin="70" pinfunction="VDDLDO" pintype="power_in"/>
+    </net>
+    <net code="106" name="/STM32 Core/VFB_SMPS">
+      <node ref="C31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="VFBSMPS" pintype="power_in"/>
+    </net>
+    <net code="107" name="/STM32 Core/VREF+">
+      <node ref="C18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="35" pinfunction="VREF+" pintype="power_in"/>
+    </net>
+    <net code="108" name="E2B">
+      <node ref="J1" pin="16" pinfunction="16" pintype="bidirectional"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="bidirectional"/>
+      <node ref="J6" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="R37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="111" pinfunction="PC12" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="E2B1">
+      <node ref="J1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="E2B2">
+      <node ref="J1" pin="9" pinfunction="9" pintype="bidirectional"/>
+      <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="E2B_ONBOARD">
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U3" pin="15" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U5" pin="139" pinfunction="PE1" pintype="bidirectional"/>
+      <node ref="U6" pin="7" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="GND">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C34" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C38" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C44" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C45" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C47" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C48" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C49" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C50" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C61" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C62" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C63" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="CR1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="CR2" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="D1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="NEG" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J5" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="59" pinfunction="59" pintype="passive"/>
+      <node ref="J6" pin="60" pinfunction="60" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="40" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="41" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="42" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="43" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="44" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="45" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="46" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="47" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="48" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U1" pin="49" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="40" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="41" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="42" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="43" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="44" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="45" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="46" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="47" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="48" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="49" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="104" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="118" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="128" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="VSSSMPS" pintype="power_in"/>
+      <node ref="U5" pin="141" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="18" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="33" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="34" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U5" pin="41" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="55" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="69" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="80" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="89" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="V-" pintype="passive"/>
+      <node ref="U8" pin="15" pinfunction="PGND" pintype="passive"/>
+      <node ref="U8" pin="16" pinfunction="PGND" pintype="passive"/>
+      <node ref="U8" pin="17" pinfunction="EPAD" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="FB" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="AGND" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="FSW" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="DEF" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="Y2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="Y2" pin="4" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="113" name="I_SNS">
+      <node ref="C37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C38" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="PB4" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="114" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="115" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="116" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="117" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="118" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="119" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R38" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="120" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="121" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="122" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="123" name="Net-(J5-Pad7)">
+      <node ref="J5" pin="7" pinfunction="7" pintype="bidirectional"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="124" name="Net-(J5-Pad8)">
+      <node ref="J5" pin="8" pinfunction="8" pintype="bidirectional"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="125" name="Net-(J5-Pad9)">
+      <node ref="J5" pin="9" pinfunction="9" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="126" name="Net-(J5-Pad10)">
+      <node ref="J5" pin="10" pinfunction="10" pintype="bidirectional"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="127" name="Net-(J11-POS)">
+      <node ref="F1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="POS" pintype="passive"/>
+    </net>
+    <net code="128" name="Net-(L2-Pad1)">
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="SW" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="SW" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="129" name="Net-(U5A-PC14-OSC32_IN)">
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="PC14-OSC32_IN" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="130" name="Net-(U5A-PC15-OSC32_OUT)">
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="PC15-OSC32_OUT" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="IN" pintype="passive"/>
+    </net>
+    <net code="131" name="Net-(U5B-PDR_ON)">
+      <node ref="R31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="142" pinfunction="PDR_ON" pintype="bidirectional"/>
+    </net>
+    <net code="132" name="Net-(U5B-PH0-OSC_IN)">
+      <node ref="C27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="25" pinfunction="PH0-OSC_IN" pintype="bidirectional"/>
+      <node ref="Y2" pin="3" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="133" name="Net-(U5B-PH1-OSC_OUT)">
+      <node ref="C22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="26" pinfunction="PH1-OSC_OUT" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="IN" pintype="passive"/>
+    </net>
+    <net code="134" name="Net-(U5C-VLXSMPS)">
+      <node ref="C28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="VLXSMPS" pintype="power_in"/>
+    </net>
+    <net code="135" name="Net-(U7-IN+)">
+      <node ref="C35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C36" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R41" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="IN+" pintype="passive"/>
+    </net>
+    <net code="136" name="Net-(U7-IN-)">
+      <node ref="C35" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C37" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="IN-" pintype="passive"/>
+    </net>
+    <net code="137" name="Net-(U8-SS{slash}TR)">
+      <node ref="C39" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="SS/TR" pintype="passive"/>
+    </net>
+    <net code="138" name="VBUS">
+      <node ref="D6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q15" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="145" name="unconnected-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(SW7-Pad1)">
+      <node ref="SW7" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U1-IO1-Pad39)">
+      <node ref="U1" pin="39" pinfunction="IO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U1-IO2-Pad38)">
+      <node ref="U1" pin="38" pinfunction="IO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U1-IO4-Pad4)">
+      <node ref="U1" pin="4" pinfunction="IO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U1-IO5-Pad5)">
+      <node ref="U1" pin="5" pinfunction="IO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U1-IO6-Pad6)">
+      <node ref="U1" pin="6" pinfunction="IO6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U1-IO7-Pad7)">
+      <node ref="U1" pin="7" pinfunction="IO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U1-IO14-Pad22)">
+      <node ref="U1" pin="22" pinfunction="IO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U1-IO35-Pad28)">
+      <node ref="U1" pin="28" pinfunction="IO35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U1-IO38-Pad31)">
+      <node ref="U1" pin="31" pinfunction="IO38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U1-IO39-Pad32)">
+      <node ref="U1" pin="32" pinfunction="IO39" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U1-IO40-Pad33)">
+      <node ref="U1" pin="33" pinfunction="IO40" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U1-IO41-Pad34)">
+      <node ref="U1" pin="34" pinfunction="IO41" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U1-IO42-Pad35)">
+      <node ref="U1" pin="35" pinfunction="IO42" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U1-IO45-Pad26)">
+      <node ref="U1" pin="26" pinfunction="IO45" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U1-IO47-Pad24)">
+      <node ref="U1" pin="24" pinfunction="IO47" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U1-IO48-Pad25)">
+      <node ref="U1" pin="25" pinfunction="IO48" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(U1-RXD0-Pad36)">
+      <node ref="U1" pin="36" pinfunction="RXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(U1-TXD0-Pad37)">
+      <node ref="U1" pin="37" pinfunction="TXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(U2-{slash}HOLD_{slash}RESET-Pad7)">
+      <node ref="U2" pin="7" pinfunction="/HOLD_/RESET" pintype="passive+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(U2-{slash}WP(IO2)-Pad3)">
+      <node ref="U2" pin="3" pinfunction="/WP(IO2)" pintype="passive+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(U3-IO1-Pad39)">
+      <node ref="U3" pin="39" pinfunction="IO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(U3-IO2-Pad38)">
+      <node ref="U3" pin="38" pinfunction="IO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(U3-IO4-Pad4)">
+      <node ref="U3" pin="4" pinfunction="IO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(U3-IO5-Pad5)">
+      <node ref="U3" pin="5" pinfunction="IO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="171" name="unconnected-(U3-IO6-Pad6)">
+      <node ref="U3" pin="6" pinfunction="IO6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="172" name="unconnected-(U3-IO7-Pad7)">
+      <node ref="U3" pin="7" pinfunction="IO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="173" name="unconnected-(U3-IO14-Pad22)">
+      <node ref="U3" pin="22" pinfunction="IO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="174" name="unconnected-(U3-IO35-Pad28)">
+      <node ref="U3" pin="28" pinfunction="IO35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="175" name="unconnected-(U3-IO38-Pad31)">
+      <node ref="U3" pin="31" pinfunction="IO38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="176" name="unconnected-(U3-IO39-Pad32)">
+      <node ref="U3" pin="32" pinfunction="IO39" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="177" name="unconnected-(U3-IO40-Pad33)">
+      <node ref="U3" pin="33" pinfunction="IO40" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="178" name="unconnected-(U3-IO41-Pad34)">
+      <node ref="U3" pin="34" pinfunction="IO41" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="179" name="unconnected-(U3-IO42-Pad35)">
+      <node ref="U3" pin="35" pinfunction="IO42" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="180" name="unconnected-(U3-IO45-Pad26)">
+      <node ref="U3" pin="26" pinfunction="IO45" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="181" name="unconnected-(U3-IO47-Pad24)">
+      <node ref="U3" pin="24" pinfunction="IO47" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="182" name="unconnected-(U3-IO48-Pad25)">
+      <node ref="U3" pin="25" pinfunction="IO48" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="183" name="unconnected-(U3-RXD0-Pad36)">
+      <node ref="U3" pin="36" pinfunction="RXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="184" name="unconnected-(U3-TXD0-Pad37)">
+      <node ref="U3" pin="37" pinfunction="TXD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="185" name="unconnected-(U4-{slash}HOLD_{slash}RESET-Pad7)">
+      <node ref="U4" pin="7" pinfunction="/HOLD_/RESET" pintype="passive+no_connect"/>
+    </net>
+    <net code="186" name="unconnected-(U4-{slash}WP(IO2)-Pad3)">
+      <node ref="U4" pin="3" pinfunction="/WP(IO2)" pintype="passive+no_connect"/>
+    </net>
+    <net code="187" name="unconnected-(U5A-PB4-Pad131)">
+      <node ref="U5" pin="131" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="188" name="unconnected-(U5A-PB5-Pad132)">
+      <node ref="U5" pin="132" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="189" name="unconnected-(U5A-PB14-Pad74)">
+      <node ref="U5" pin="74" pinfunction="PB14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="190" name="unconnected-(U5A-PB15-Pad75)">
+      <node ref="U5" pin="75" pinfunction="PB15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="191" name="unconnected-(U5A-PC0-Pad28)">
+      <node ref="U5" pin="28" pinfunction="PC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="192" name="unconnected-(U5A-PC13-Pad9)">
+      <node ref="U5" pin="9" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="193" name="unconnected-(U5A-PD3-Pad115)">
+      <node ref="U5" pin="115" pinfunction="PD3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="194" name="unconnected-(U5A-PD6-Pad120)">
+      <node ref="U5" pin="120" pinfunction="PD6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="195" name="unconnected-(U5A-PD10-Pad78)">
+      <node ref="U5" pin="78" pinfunction="PD10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="196" name="unconnected-(U5A-PD11-Pad81)">
+      <node ref="U5" pin="81" pinfunction="PD11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="197" name="unconnected-(U5A-PD12-Pad82)">
+      <node ref="U5" pin="82" pinfunction="PD12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="198" name="unconnected-(U5A-PD13-Pad83)">
+      <node ref="U5" pin="83" pinfunction="PD13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="199" name="unconnected-(U5A-PD14-Pad84)">
+      <node ref="U5" pin="84" pinfunction="PD14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="200" name="unconnected-(U5A-PD15-Pad85)">
+      <node ref="U5" pin="85" pinfunction="PD15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="201" name="unconnected-(U5B-PE3-Pad2)">
+      <node ref="U5" pin="2" pinfunction="PE3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="202" name="unconnected-(U5B-PE4-Pad3)">
+      <node ref="U5" pin="3" pinfunction="PE4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="203" name="unconnected-(U5B-PE5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="PE5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="204" name="unconnected-(U5B-PE6-Pad5)">
+      <node ref="U5" pin="5" pinfunction="PE6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="205" name="unconnected-(U5B-PE7-Pad57)">
+      <node ref="U5" pin="57" pinfunction="PE7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="206" name="unconnected-(U5B-PE8-Pad58)">
+      <node ref="U5" pin="58" pinfunction="PE8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="207" name="unconnected-(U5B-PE9-Pad59)">
+      <node ref="U5" pin="59" pinfunction="PE9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="208" name="unconnected-(U5B-PE10-Pad60)">
+      <node ref="U5" pin="60" pinfunction="PE10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="209" name="unconnected-(U5B-PE11-Pad61)">
+      <node ref="U5" pin="61" pinfunction="PE11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="210" name="unconnected-(U5B-PE12-Pad62)">
+      <node ref="U5" pin="62" pinfunction="PE12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="211" name="unconnected-(U5B-PE13-Pad63)">
+      <node ref="U5" pin="63" pinfunction="PE13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="212" name="unconnected-(U5B-PE14-Pad64)">
+      <node ref="U5" pin="64" pinfunction="PE14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="213" name="unconnected-(U5B-PE15-Pad65)">
+      <node ref="U5" pin="65" pinfunction="PE15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="214" name="unconnected-(U5B-PF6-Pad20)">
+      <node ref="U5" pin="20" pinfunction="PF6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="215" name="unconnected-(U5B-PF7-Pad21)">
+      <node ref="U5" pin="21" pinfunction="PF7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="216" name="unconnected-(U5B-PF8-Pad22)">
+      <node ref="U5" pin="22" pinfunction="PF8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="217" name="unconnected-(U5B-PF9-Pad23)">
+      <node ref="U5" pin="23" pinfunction="PF9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="218" name="unconnected-(U5B-PF10-Pad24)">
+      <node ref="U5" pin="24" pinfunction="PF10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="219" name="unconnected-(U5B-PG6-Pad86)">
+      <node ref="U5" pin="86" pinfunction="PG6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="220" name="unconnected-(U5B-PG7-Pad87)">
+      <node ref="U5" pin="87" pinfunction="PG7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="221" name="unconnected-(U5B-PG8-Pad88)">
+      <node ref="U5" pin="88" pinfunction="PG8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="222" name="unconnected-(U5B-PG9-Pad122)">
+      <node ref="U5" pin="122" pinfunction="PG9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="223" name="unconnected-(U5B-PG10-Pad123)">
+      <node ref="U5" pin="123" pinfunction="PG10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="224" name="unconnected-(U5B-PG14-Pad127)">
+      <node ref="U5" pin="127" pinfunction="PG14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="225" name="unconnected-(U6-PB0-Pad5)">
+      <node ref="U6" pin="5" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="226" name="unconnected-(U6-PB5-Pad1)">
+      <node ref="U6" pin="1" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
